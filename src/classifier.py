@@ -17,6 +17,7 @@ class Classifier(object):
         self.table = {}
         self.vocab = {}
         self.classCount = {}
+        self.vocab_table = {}
 
 def main(argv):
     programName = argv[0]
@@ -33,18 +34,28 @@ def main(argv):
             docClass = lineParts[0]
             doc = lineParts[1:]
             doc[-1] = doc[-1].strip('\n')
-            for word in doc:
-                c.vocab[word] = 0
             if (docClass not in c.table.keys()):
                 c.table[docClass] = doc
+                c.vocab_table[docClass] = {}
                 c.classCount[docClass] = 1
             else:
                 c.table[docClass] += doc
                 c.classCount[docClass] += 1
+            for word in doc:
+                c.vocab[word] = 0
+                try:
+                    c.vocab_table[docClass][word] +=1 
+                except Exception:
+                    # we have not added a word yet
+                    c.vocab_table[docClass][word] = 1
             #print "docClass: ", docClass
             #print "doc: ", doc
+    #print c.table["baseball"]
     pp.pprint(c.classCount)
+    print "len vocab:", len(c.vocab)
+    #pp.pprint(c.vocab_table["baseball"])
 
+    print len(c.table["baseball"])
 
 if __name__ == "__main__":
     main(sys.argv)
