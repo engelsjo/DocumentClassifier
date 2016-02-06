@@ -22,8 +22,17 @@ attribute values are completely independent, given the classification.
 
 ## TO-DO
 ### Required
+- Calculate Prob(w_k | c_j)
+- Classify test docs
+- Stop words
 
 ### Extra
+- Graphs?
+- Matrix approach?
+
+
+## Helpful Links
+- [Simple Explanation of Naive Bayes](http://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification)
 
 ## Project Info
 ### Dataset
