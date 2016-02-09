@@ -34,7 +34,6 @@ attribute values are completely independent, given the classification.
 #### Dictionary tagging (locating a specific set of words in the texts)  
 
 ## High-level Goals for Text Analysis  
-(From Underwood, T. (2012). Where to start with text mining.)
 - Document categorization  
 - Information retrieval (e.g., search engines)  
 - Supervised classification (e.g., guessing genres)  
@@ -45,10 +44,10 @@ attribute values are completely independent, given the classification.
 - Entity recognition/extraction (e.g., geoparsing)  
 - Visualization   
 
-
-
 ## Helpful Links
 - [Simple Explanation of Naive Bayes](http://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification)
+- [Where to start with text mining](http://tedunderwood.com/2012/08/14/where-to-start-with-text-mining/)
+-[Intro to Topic Modeling](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/)
 
 ## Project Info
 ### Dataset
