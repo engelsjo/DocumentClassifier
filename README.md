@@ -32,6 +32,7 @@ attribute values are completely independent, given the classification.
 #### N-grams (common two-, three-, etc.- word phrases)  
 #### Entity recognition (identifying names, places, time periods, etc.)  
 #### Dictionary tagging (locating a specific set of words in the texts)  
+#### [Word Cloud Visualization](https://github.com/jasondavies/d3-cloud)
 
 ## High-level Goals for Text Analysis  
 - Document categorization  
