@@ -19,16 +19,32 @@ classification is known (i.e. it is another form of Supervised Learning). The
 algorithm is called “naïve” because it makes the simplifying assumption that
 attribute values are completely independent, given the classification.
 
-
 ## TO-DO
 ### Required
-- Calculate Prob(w_k | c_j)
-- Classify test docs
-- Stop words
+- Alternative/additional data pre-processing  
+- k-fold cross validation  
 
-### Extra
-- Graphs?
-- Matrix approach?
+
+## Other Ideas  
+#### Word frequency (lists of words and their frequencies)  
+#### Collocation (words commonly appearing near each other)   
+#### Concordance (the contexts of a given word or set of words)  
+#### N-grams (common two-, three-, etc.- word phrases)  
+#### Entity recognition (identifying names, places, time periods, etc.)  
+#### Dictionary tagging (locating a specific set of words in the texts)  
+
+## High-level Goals for Text Analysis  
+(From Underwood, T. (2012). Where to start with text mining.)
+- Document categorization  
+- Information retrieval (e.g., search engines)  
+- Supervised classification (e.g., guessing genres)  
+- Unsupervised clustering (e.g., alternative “genres”)  
+- Corpora comparison (e.g., political speeches)  
+- Language use over time (e.g., Google ngram viewer)  
+- Detecting clusters of document features (i.e., topic modeling)   
+- Entity recognition/extraction (e.g., geoparsing)  
+- Visualization   
+
 
 
 ## Helpful Links
