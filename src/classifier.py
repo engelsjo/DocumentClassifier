@@ -8,6 +8,7 @@
 import sys
 import pprint as pp
 import numpy as np
+import math
 
 train_dir = '../data/trainData/'
 test_dir = '../data/testData/'
@@ -48,10 +49,10 @@ class Classifier(object):
 
                 all_probs = {}
                 for a_class in self.vocab_table.keys():
-                    curr_prob = self.prob_cj[a_class]
+                    curr_prob = math.log(self.prob_cj[a_class])
                     for word in doc:
                         if self.isInVocab(word):
-                            curr_prob *= self.get_word_prob(a_class, word)
+                            curr_prob += math.log(self.get_word_prob(a_class, word))
                     all_probs[a_class] = curr_prob
 
                 #find the max for CNB
