@@ -11,15 +11,31 @@ class Classifier(object):
 
     def __init__(self, arguments):
         self.arguments = arguments
-        self.docTermMatrix = {}
+        self.vocabulary = {}
+        #self.docTermMatrix = [][]
 
-    def parseFile(self, fileName, delimiter):
+    def parseTrain(self, fileName, delimiter):
         lines = []
         with open(fileName, 'rb') as fileHandler:
             for line in fileHandler:
                 lineTokens = line.strip('\n\r').split(delimiter)
                 lines.append(lineTokens)
         return lines
+
+    def learn(self, fileName, delimiter):
+        linesParsed = self.parseTrain(self.arguments['trainingSet'], ' ')
+        for line in linesParsed:
+            documentClass = line[0]
+            document = line[1:]
+
+            # collect set of all distinct words
+            for word in document:
+                # if word not seen before add as key to vocabulary
+                if word not in self.vocabulary:
+                    self.vocabulary[word] = ''
+
+
+
 
 def parseCommands():
     # create argument parser
@@ -35,7 +51,7 @@ def parseCommands():
 
 def main():
     c = Classifier(parseCommands())
-    c.parseFile(c.arguments['trainingSet'], ' ')
+    c.learn()
 
 
 
