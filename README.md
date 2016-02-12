@@ -33,6 +33,7 @@ attribute values are completely independent, given the classification.
 #### Entity recognition (identifying names, places, time periods, etc.)  
 #### Dictionary tagging (locating a specific set of words in the texts)  
 #### [Word Cloud Visualization](https://github.com/jasondavies/d3-cloud)
+#### [Twitter Sentiment Analysis](http://help.sentiment140.com/for-students/)
 
 ## High-level Goals for Text Analysis  
 - Document categorization  
