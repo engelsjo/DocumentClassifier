@@ -1,18 +1,18 @@
 # DocumentClassifier
 ## CIS 678 - Project 1
 
-## Authors
+### Authors
 Michael Baldwin, Joshua Engelsma, Adam Terwilliger
 
-## Objective
+### Objective
 Document Classification using the Naive Bayes Algorithm
 
-## Specification
+### Specification
 The basic idea is to write a program that, given a collection of training data consisting
 of category-labeled documents, “learns” how to classify new documents into the
 correct category using a Naïve Bayes classifier.
 
-## Background
+### Background
 The Naïve Bayes algorithm uses probabilities to perform classification. The
 probabilities are estimated based on training data for which the value of the
 classification is known (i.e. it is another form of Supervised Learning). The
@@ -24,8 +24,7 @@ attribute values are completely independent, given the classification.
 - Alternative/additional data pre-processing  
 - k-fold cross validation  
 
-
-## Other Ideas  
+### Other Ideas  
 #### Word frequency (lists of words and their frequencies)  
 #### Collocation (words commonly appearing near each other)   
 #### Concordance (the contexts of a given word or set of words)  
