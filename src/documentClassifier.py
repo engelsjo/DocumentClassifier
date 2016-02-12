@@ -6,19 +6,30 @@
 """
 
 import argparse
-import numpy as np
-# np.set_printoptions(threshold=np.nan)
 
-class Classifier(object):
+class DocumentType(object):
+
+    def __init__(self):
+        # the number of documents for which classification is this type
+        self.count = 0
+        # single text for this type (concatenation of all documents for this type)
+        self.text = None
+
+
+
+class DocumentClassifier(object):
 
     def __init__(self, args):
+        # command line arguments for program execution
         self.args = args
-        # set of unique words
+        # set of unique words in training documentss
         self.vocab = set()
-        # two-dimensional array (matrix) of documents and terms (words)
-        # self.docTermMatrix = None
+        # the number of training documents
+        self.numTrainDocs = 0
+        # dictionary of class names to document type objects
+        self.classesToDocTypes = {}
 
-    def parseTrain(self, fileName, stripChars, delimiter):
+    def parseFile(self, fileName, stripChars, delimiter):
         lines = []
         with open(fileName, 'rb') as fileHandler:
             for line in fileHandler:
@@ -33,30 +44,17 @@ class Classifier(object):
             for word in document:
                 self.vocab.add(word)
 
-    """
-    def createWordsToIndices(self, vocab):
-        wordsToIndices = {}
-        index = 0
-        for word in vocab:
-            if word not in wordsToIndices:
-                wordsToIndices[word] = index
-                index += 1
-        return wordsToIndices
-
-    def createMatrix(self, lines, numRows, numCols):
-        self.docTermMatrix = np.zeros((numRows, numCols))
-        wordsToIndices = self.createWordsToIndices(self.vocab)
-        for i in range(0, len(lines)):
-            line = lines[i]
-            document = line[1:]
-            for word in document:
-                self.docTermMatrix[i][wordsToIndices[word]] += 1
-    """
-
     def learn(self, fileName):
-        lines = self.parseTrain(fileName, '\n\r', ' ')
+        lines = self.parseFile(fileName, '\n\r', ' ')
         self.createVocab(lines)
-        # print self.vocab
+        # self.numTrainDocs = len(lines)
+        # for j in range(0, len(lines)):
+            #line = lines[j]
+            #classJ = line[0]
+            #documentJ = line[1:]
+
+    def classify(self, fileName):
+        x = 0
 
 def parseCommands():
     # create argument parser
@@ -71,9 +69,8 @@ def parseCommands():
     return vars(ArgParser.parse_args())
 
 def main():
-    c = Classifier(parseCommands())
-    c.learn(c.args['trainingSet'])
-
+    dc = DocumentClassifier(parseCommands())
+    dc.learn(dc.args['trainingSet'])
 
 if __name__ == "__main__":
     main()
