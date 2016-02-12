@@ -49,6 +49,7 @@ attribute values are completely independent, given the classification.
 - [Simple Explanation of Naive Bayes](http://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification)   
 - [Where to start with text mining](http://tedunderwood.com/2012/08/14/where-to-start-with-text-mining/)   
 - [Intro to Topic Modeling](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/)
+- [Python - Time Complexity of Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 
 ## Project Info
 ### Dataset
