@@ -16,7 +16,7 @@ class Classifier(object):
         # set of unique words
         self.vocab = set()
         # two-dimensional array (matrix) of documents and terms (words)
-        self.docTermMatrix = None
+        # self.docTermMatrix = None
 
     def parseTrain(self, fileName, stripChars, delimiter):
         lines = []
@@ -33,6 +33,7 @@ class Classifier(object):
             for word in document:
                 self.vocab.add(word)
 
+    """
     def createWordsToIndices(self, vocab):
         wordsToIndices = {}
         index = 0
@@ -50,12 +51,12 @@ class Classifier(object):
             document = line[1:]
             for word in document:
                 self.docTermMatrix[i][wordsToIndices[word]] += 1
+    """
 
     def learn(self, fileName):
         lines = self.parseTrain(fileName, '\n\r', ' ')
         self.createVocab(lines)
-        self.createMatrix(lines, len(lines), len(self.vocab))
-        print self.docTermMatrix[0]
+        # print self.vocab
 
 def parseCommands():
     # create argument parser
