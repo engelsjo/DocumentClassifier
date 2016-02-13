@@ -19,11 +19,15 @@ classification is known (i.e. it is another form of Supervised Learning). The
 algorithm is called “naïve” because it makes the simplifying assumption that
 attribute values are completely independent, given the classification.
 
+## Usage
+### Generic
+`python documentClassifier.py dataset.data k`
+### Example
+`python src/documentClassifier.py data/kfoldData/forum.data 3`
+
 ## TO-DO
 ### Required
 - Alternative/additional data pre-processing  
-- k-fold cross validation  
-
 
 ## Other Ideas  
 #### Word frequency (lists of words and their frequencies)  
