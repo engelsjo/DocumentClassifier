@@ -49,6 +49,8 @@ class DocumentClassifier(object):
         self.docTypes = {}
         # number of test documents correctly classified
         self.numCorrect = 0
+        # list of percentage corrects across k-trials
+        self.percentCorrects = []
 
     # reset classifier
     def resetClassifier(self):
@@ -68,6 +70,15 @@ class DocumentClassifier(object):
     # find the percent correct out of a total
     def percentage(self, numCorrect, total):
         return (float(numCorrect) / float(total)) * 100.0
+
+    # print average effectiveness across k-trials
+    def printAvgPercent(self, k):
+        print 'Average Effectiveness across %d-trials: %d%%' % \
+              (k, self.findAvg(self.percentCorrects))
+
+    # find average of list of numbers
+    def findAvg(self, listNums):
+        return float(sum(listNums)) / float(len(listNums))
 
     # parse a file into a list of lists
     def parseFile(self, fileName, chars, delimiter):
@@ -210,9 +221,13 @@ class DocumentClassifier(object):
             self.classify(testSet)
             # print current statistics of classifier
             self.printStats()
+            # update the average percent effectiveness (percent correct)
+            self.percentCorrects.append( \
+                            self.percentage(self.numCorrect, self.numTestDocs))
             # reset classifier for next iteration
             self.resetClassifier()
-
+        # print average effectiveness (percent correct)
+        self.printAvgPercent(k)
 
 
 # parse commands from the command line for execution
@@ -221,6 +236,7 @@ def parseCommands():
     # add positional command line arguments expected to run program
     ArgParser.add_argument('dataSet',
         help='The set of data to perform k-fold cross validation on.')
+    ArgParser.add_argument('k', help="The number of folds to run trials.")
     # parse the arguments passed to program and return as a dictionary where
     # key is the argument name, and value is the argument value passed
     return vars(ArgParser.parse_args())
@@ -228,7 +244,7 @@ def parseCommands():
 # main driver of program
 def main():
     dc = DocumentClassifier(parseCommands())
-    dc.kFold(dc.args['dataSet'], 2)
+    dc.kFold(dc.args['dataSet'], int(dc.args['k']))
 
 if __name__ == "__main__":
     main()
