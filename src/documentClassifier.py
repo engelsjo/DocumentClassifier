@@ -3,13 +3,17 @@
 @version: 1.0
 @authors: Josh Engelsma, Adam Terwilliger, Michael Baldwin
 @date: Febrary 11, 2016
+
+References:
+- http://www.cis.gvsu.edu/~wolffe/courses/cs678/projects/project2.pdf
+- http://nlp.stanford.edu/IR-book/html/htmledition/naive-bayes-text-classification-1.html
+- https://www.cs.cmu.edu/~schneide/tut5/node42.html
+- http://stackoverflow.com/questions/16379313/how-to-use-the-a-10-fold-cross-validation-with-naive-bayes-classifier-and-nltk
 """
 
 import argparse
 import math
 import progressbar
-#import sys
-
 
 # document type in a document classifier
 class DocumentType(object):
@@ -46,10 +50,18 @@ class DocumentClassifier(object):
         # number of test documents correctly classified
         self.numCorrect = 0
 
+    # reset classifier
+    def resetClassifier(self):
+        self.numTrainDocs = 0
+        self.numTestDocs = 0
+        self.vocab = set()
+        self.docTypes = dict()
+        self.numCorrect = 0
+
     # print statistics on classifier effectiveness
     def printStats(self):
         print('Classifier Effectiveness:')
-        print 'Correct: %d, Total: %d, Effectiveness: %d' % \
+        print 'Correct: %d, Total: %d, Effectiveness: %d%%' % \
               (self.numCorrect, self.numTestDocs, \
                self.percentage(self.numCorrect, self.numTestDocs))
 
@@ -175,15 +187,40 @@ class DocumentClassifier(object):
         # find and return the maximum probability of all the classes
         return max(classProbs, key=classProbs.get)
 
+    # k-fold cross validation where k is the number of iterations
+    # average error is computed across all k trials
+    def kFold(self, fileName, k):
+        print 'Naive bayes classification with %d-fold cross validation:' % (k)
+        # parse the dataset into a list of lists
+        lines = self.parseFile(fileName, '\n\r', ' ')
+        # calculate the offset based on the number of documents and k
+        offset = len(lines) / k
+        # for each fold, learn and classify
+        for i in range(0, k):
+            # test set starts at the iteration times the offset,
+            # then splice again up until offset - 1
+            testSet = lines[i * offset:][:offset]
+            # training set starts at begining up until iteration times offset
+            # (if offset is zero then this is empty), then append the rest
+            # from iteration plus 1 times offset until end
+            trainSet = lines[:i * offset] + lines[(i + 1) * offset:]
+            # learn
+            self.learn(trainSet)
+            # classify unseen documents
+            self.classify(testSet)
+            # print current statistics of classifier
+            self.printStats()
+            # reset classifier for next iteration
+            self.resetClassifier()
+
+
+
 # parse commands from the command line for execution
 def parseCommands():
     ArgParser = argparse.ArgumentParser()
     # add positional command line arguments expected to run program
-    ArgParser.add_argument('trainingSet',
-        help='The set of data to discover potentially predictive relationships.')
-    ArgParser.add_argument("testSet",
-        help='The set of data used to assess the strength and utility of a /\
-              predictive relationship.')
+    ArgParser.add_argument('dataSet',
+        help='The set of data to perform k-fold cross validation on.')
     # parse the arguments passed to program and return as a dictionary where
     # key is the argument name, and value is the argument value passed
     return vars(ArgParser.parse_args())
@@ -191,13 +228,7 @@ def parseCommands():
 # main driver of program
 def main():
     dc = DocumentClassifier(parseCommands())
-    dc.learn(dc.parseFile(dc.args['trainingSet'], '\n\r', ' '))
-    dc.classify(dc.parseFile(dc.args['testSet'], '\n\r', ' '))
-    dc.printStats()
-
-    # accept list of lists
-    # read in whole 1st time, get k
-    # try k as 2
+    dc.kFold(dc.args['dataSet'], 2)
 
 if __name__ == "__main__":
     main()
