@@ -7,7 +7,9 @@
 
 import argparse
 import math
-import sys
+import progressbar
+#import sys
+
 
 # document type in a document classifier
 class DocumentType(object):
@@ -44,6 +46,17 @@ class DocumentClassifier(object):
         # number of test documents correctly classified
         self.numCorrect = 0
 
+    # print statistics on classifier effectiveness
+    def printStats(self):
+        print('Classifier Effectiveness:')
+        print 'Correct: %d, Total: %d, Effectiveness: %d' % \
+              (self.numCorrect, self.numTestDocs, \
+               self.percentage(self.numCorrect, self.numTestDocs))
+
+    # find the percent correct out of a total
+    def percentage(self, numCorrect, total):
+        return (float(numCorrect) / float(total)) * 100.0
+
     # parse a file into a list of lists
     def parseFile(self, fileName, chars, delimiter):
         lines = []
@@ -54,13 +67,20 @@ class DocumentClassifier(object):
         return lines
 
     # learn how to classify a document
-    def learn(self, fileName):
-        lines = self.parseFile(fileName, '\n\r', ' ')
+    def learn(self, docList):
+        # use progress bar to track computation time
+        bar = progressbar.ProgressBar(max_value=len(docList)).start()
+        print ('Learning from training documents:')
         # since each line is a training document, parse it
-        for line in lines:
+        for i in range(0, len(docList)):
+            line = docList[i]
             className = line[0]
             doc = line[1:]
             self.parseTrainDoc(className, doc)
+            # update progress bar
+            bar.update(i)
+        # finish progress bar
+        bar.finish()
         # after parsing all training documents, calculate probabilities
         self.calcClassProbs()
 
@@ -107,10 +127,14 @@ class DocumentClassifier(object):
                     float(numWordCounts + 1) / float (numWords + len(self.vocab))
 
     # classify unseen documents
-    def classify(self, fileName):
-        lines = self.parseFile(fileName, '\n\r', ' ')
+    def classify(self, docList):
+        # use progress bar to track computation time
+        bar = progressbar.ProgressBar(max_value=len(docList), \
+                                      redirect_stdout=True).start()
+        print ('Classifying test documents:')
         # since each line is a test document, parse it
-        for line in lines:
+        for i in range(0, len(docList)):
+            line = docList[i]
             # the actual class name
             actualClass = line[0]
             # test document
@@ -122,9 +146,12 @@ class DocumentClassifier(object):
                 self.numCorrect += 1
             # incrememnt number of test documents
             self.numTestDocs += 1
-            # calculate the percent correct
-            self.printScore(cnb, actualClass,
-                            self.percentage(self.numCorrect, self.numTestDocs))
+            # display whether the classification was correct or not
+            # print 'Classified: %s, Actual: %s' % (cnb, actualClass)
+            # update the progress bar
+            bar.update(i)
+        # finish progress bar
+        bar.finish()
 
     # classify document using naive bayes classification
     # note: the "big product" is typically taken, but since probabilities are
@@ -148,15 +175,6 @@ class DocumentClassifier(object):
         # find and return the maximum probability of all the classes
         return max(classProbs, key=classProbs.get)
 
-    # find the percent correct out of a total
-    def percentage(self, numCorrect, total):
-        return (float(numCorrect) / float(total)) * 100.0
-
-    # print score of classification since supervised learning
-    def printScore(self, classified, actual, percentage):
-        sys.stdout.write("Classified : {}\nActual : {}\nPercentage : {}%\n".format(classified, actual, percentage))
-        sys.stdout.flush()
-
 # parse commands from the command line for execution
 def parseCommands():
     ArgParser = argparse.ArgumentParser()
@@ -173,8 +191,13 @@ def parseCommands():
 # main driver of program
 def main():
     dc = DocumentClassifier(parseCommands())
-    dc.learn(dc.args['trainingSet'])
-    dc.classify(dc.args['testSet'])
+    dc.learn(dc.parseFile(dc.args['trainingSet'], '\n\r', ' '))
+    dc.classify(dc.parseFile(dc.args['testSet'], '\n\r', ' '))
+    dc.printStats()
+
+    # accept list of lists
+    # read in whole 1st time, get k
+    # try k as 2
 
 if __name__ == "__main__":
     main()

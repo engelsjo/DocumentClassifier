@@ -51,6 +51,7 @@ attribute values are completely independent, given the classification.
 - [Intro to Topic Modeling](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/)
 - [Naive Bayes Time Complexity](http://nlp.stanford.edu/IR-book/html/htmledition/naive-bayes-text-classification-1.html)
 - [Python - Time Complexity of Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
+- [Python Progress Bar](https://github.com/WoLpH/python-progressbar)
 
 ## Project Info
 ### Dataset
@@ -59,3 +60,12 @@ attribute values are completely independent, given the classification.
 - [Test Dataset](http://www.cis.gvsu.edu/~wolffe/courses/cs678/projects/forumTest.data)
 - [Training Dataset w/stemming](http://www.cis.gvsu.edu/~wolffe/courses/cs678/projects/forumTraining-stemmed.data)
 - [Test Dataset w/stemming](http://www.cis.gvsu.edu/~wolffe/courses/cs678/projects/forumTest-stemmed.data)
+- kfold dataset creation:
+```
+mkdir kfoldData
+cp trainData/forumTraining.data kfoldData/
+cp testData/forumTest.data kfoldData/
+cat kfoldData/forumTest.data >> kfoldData/forumTraining.data
+rm kfoldData/forumTest.data
+mv kfoldData/forumTraining.data kfoldData/forum.data
+```
