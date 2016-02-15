@@ -60,26 +60,6 @@ class DocumentClassifier(object):
         self.docTypes = dict()
         self.numCorrect = 0
 
-    # print statistics on classifier effectiveness
-    def printStats(self):
-        print('Classifier Effectiveness:')
-        print 'Correct: %d, Total: %d, Effectiveness: %d%%' % \
-              (self.numCorrect, self.numTestDocs, \
-               self.percentage(self.numCorrect, self.numTestDocs))
-
-    # find the percent correct out of a total
-    def percentage(self, numCorrect, total):
-        return (float(numCorrect) / float(total)) * 100.0
-
-    # print average effectiveness across k-trials
-    def printAvgPercent(self, k):
-        print 'Average Effectiveness across %d-trials: %d%%' % \
-              (k, self.findAvg(self.percentCorrects))
-
-    # find average of list of numbers
-    def findAvg(self, listNums):
-        return float(sum(listNums)) / float(len(listNums))
-
     # parse a file into a list of lists
     def parseFile(self, fileName, chars, delimiter):
         lines = []
@@ -281,6 +261,26 @@ class DocumentClassifier(object):
             self.resetClassifier()
         # print average effectiveness (percent correct)
         self.printAvgPercent(k)
+
+    # print statistics on classifier effectiveness
+    def printStats(self):
+        print('Classifier Effectiveness:')
+        print 'Correct: %d, Total: %d, Effectiveness: %d%%' % \
+              (self.numCorrect, self.numTestDocs, \
+               self.percentage(self.numCorrect, self.numTestDocs))
+
+    # find the percent correct out of a total
+    def percentage(self, numCorrect, total):
+        return (float(numCorrect) / float(total)) * 100.0
+
+    # print average effectiveness across k-trials
+    def printAvgPercent(self, k):
+        print 'Average Effectiveness across %d-trials: %d%%' % \
+              (k, self.findAvg(self.percentCorrects))
+
+    # find average of list of numbers
+    def findAvg(self, listNums):
+        return float(sum(listNums)) / float(len(listNums))
 
 
 
