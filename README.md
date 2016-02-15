@@ -37,7 +37,11 @@ attribute values are completely independent, given the classification.
 - Randomized validation
 - Positivity/Negativity rating for politicians/scientists
 - N grams (uni-grams, bi-grams, tri-grams)
-- Maximum entropy classifier
+- Maximum entropy classifier[http://blog.datumbox.com/machine-learning-tutorial-the-max-entropy-text-classifier/]
+
+
+### Credits
+- Twitter-Sentiment-Credits[https://github.com/yogeshg/Twitter-Sentiment]
 
 ## Other Ideas  
 #### Word frequency (lists of words and their frequencies)  
