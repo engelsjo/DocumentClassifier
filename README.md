@@ -19,6 +19,10 @@ algorithm is called “naïve” because it makes the simplifying assumption tha
 attribute values are completely independent, given the classification.
 
 ## Usage
+### Progress Bar
+```
+sudo pip install progressbar2
+```
 ### Holdout Method
 ```
 python src/documentClassifier.py holdout data/trainData/forumTraining.data data/testData/forumTest.data
@@ -30,6 +34,10 @@ python src/documentClassifier.py kfold data/mergedData/forum.data k
 ### Random Subsampling
 ```
 python src/documentClassifier.py random data/mergedData/forum.data k
+```
+### Automate n K-Fold Trials
+```
+bash src/kfold.sh n
 ```
 
 ## TO-DO
