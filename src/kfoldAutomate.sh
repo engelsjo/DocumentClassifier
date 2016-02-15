@@ -5,7 +5,7 @@ PY_COMMAND=kfold
 PY_DATASET=data/mergedData/forum.data
 BASH_KFOLD=output/kfold_stdout.txt
 BASH_PERCENT=output/kfold_percents.txt
-PY_AGGREGATE=src/kfold.py
+PY_AGGREGATE=src/kfoldStats.py
 
 # ensure that argument for number of iterations provided
 # Reference:

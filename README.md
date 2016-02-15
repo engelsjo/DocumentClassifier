@@ -37,7 +37,7 @@ python src/documentClassifier.py random data/mergedData/forum.data k
 ```
 ### Automate n K-Fold Trials
 ```
-bash src/kfold.sh n
+bash src/kfoldAutomate.sh n
 ```
 
 ## TO-DO
