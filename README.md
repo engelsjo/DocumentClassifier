@@ -39,6 +39,10 @@ python src/documentClassifier.py random data/mergedData/forum.data k s
 ```
 bash src/kfoldAutomate.sh n
 ```
+### Automate N Random Trials with Various Sizes
+```
+bash src/randomAutomate.sh n firstSize lastSize step
+```
 ### Word Cloud Visualization by Class
 ```
 python src/wordcloudPreprocess.py data/mergedData/forum.data

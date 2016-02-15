@@ -1,12 +1,17 @@
 # bash script to run k-fold trials
 
+# python program and dataset
 PY_PROGRAM=src/documentClassifier.py
 PY_COMMAND=kfold
 PY_DATASET=data/mergedData/forum.data
+
+# bash temp results
 BASH_KFOLD=.temp/kfold_stdout.txt
 BASH_PERCENT=.temp/kfold_percents.txt
-PY_AGGREGATE=src/kfoldStats.py
-PY_OUTPUT=output/kfold/trials.txt
+
+# python aggregater
+PY_AGGREGATE=src/postProcessStats.py
+PY_OUTPUT=output/kfold/
 
 # ensure that argument for number of iterations provided
 # Reference:
@@ -50,7 +55,8 @@ for (( n=$START; n<=$END; n++ )); do
 done
 
 # use python script to find the average and maximum of the percentages
-python ${PY_AGGREGATE} ${BASH_PERCENT} > ${PY_OUTPUT}
+OUTPUT_TXT=kfold_2_${1}.txt
+python ${PY_AGGREGATE} ${BASH_PERCENT} > ${PY_OUTPUT}/${OUTPUT_TXT}
 
 # print final trials max and average to the std out
 cat ${PY_OUTPUT}
