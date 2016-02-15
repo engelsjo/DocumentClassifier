@@ -5,10 +5,9 @@
 @date: Febrary 11, 2016
 
 References:
-- http://www.cis.gvsu.edu/~wolffe/courses/cs678/projects/project2.pdf
-- http://nlp.stanford.edu/IR-book/html/htmledition/naive-bayes-text-classification-1.html
-- https://www.cs.cmu.edu/~schneide/tut5/node42.html
-- http://stackoverflow.com/questions/16379313/how-to-use-the-a-10-fold-cross-validation-with-naive-bayes-classifier-and-nltk
+- Project: http://www.cis.gvsu.edu/~wolffe/courses/cs678/projects/project2.pdf
+- Naive Bayes: http://nlp.stanford.edu/IR-book/html/htmledition/naive-bayes-text-classification-1.html
+- Validation: http://research.cs.tamu.edu/prism/lectures/iss/iss_l13.pdf
 """
 
 import argparse
@@ -36,9 +35,7 @@ class DocumentType(object):
 class DocumentClassifier(object):
 
     # constructor
-    def __init__(self, args):
-        # command line arguments to execute program
-        self.args = args
+    def __init__(self):
         # number of training documents
         self.numTrainDocs = 0
         # number of test documents
@@ -198,12 +195,21 @@ class DocumentClassifier(object):
         # find and return the maximum probability of all the classes
         return max(classProbs, key=classProbs.get)
 
+    # holdout method, use training set and test set
+    def holdout(self, trainingSet, testSet):
+        print 'Naive bayes classification with holdout method'
+        # parse the training set
+        trainLines = self.parseFile(trainingSet, '\n\r', ' ')
+        # parse the test set
+        testLines = self.parseFile(testSet, '\n\r', ' ')
+
     # k-fold cross validation where k is the number of iterations
     # average error is computed across all k trials
-    def kFold(self, fileName, k):
+    # Reference: http://stackoverflow.com/questions/16379313/how-to-use-the-a-10-fold-cross-validation-with-naive-bayes-classifier-and-nltk
+    def kFold(self, dataSet, k):
         print 'Naive bayes classification with %d-fold cross validation:' % (k)
         # parse the dataset into a list of lists
-        lines = self.parseFile(fileName, '\n\r', ' ')
+        lines = self.parseFile(dataSet, '\n\r', ' ')
         # calculate the offset based on the number of documents and k
         offset = len(lines) / k
         # for each fold, learn and classify
@@ -229,22 +235,66 @@ class DocumentClassifier(object):
         # print average effectiveness (percent correct)
         self.printAvgPercent(k)
 
+    # random subsampling
+    def random(self, dataSet, k):
+        print 'random'
 
 # parse commands from the command line for execution
+# Reference: https://docs.python.org/dev/library/argparse.html#sub-commands
 def parseCommands():
-    ArgParser = argparse.ArgumentParser()
-    # add positional command line arguments expected to run program
-    ArgParser.add_argument('dataSet',
-        help='The set of data to perform k-fold cross validation on.')
-    ArgParser.add_argument('k', help="The number of folds to run trials.")
-    # parse the arguments passed to program and return as a dictionary where
-    # key is the argument name, and value is the argument value passed
-    return vars(ArgParser.parse_args())
+    # create top-level parser
+    parser = argparse.ArgumentParser(prog='Document Classifier')
+    # create sub-parsers
+    subparsers = parser.add_subparsers(dest='validation',
+        help='Validation technique to use.')
+    # create parser for "holdout" command (holdout method)
+    parser_holdout = subparsers.add_parser('holdout', help='Holdout method.')
+    parser_holdout.add_argument('trainingSet', help='The training set to train /\
+        the classifier.')
+    parser_holdout.add_argument('testSet', help='The test set to estimate the /\
+        error rate of the trained classifier.')
+    parser_holdout.set_defaults(validation=holdoutFunc)
+    # create parser for "k-fold" command (k-fold cross validation)
+    parser_kfold = subparsers.add_parser('kfold', help='K-fold cross validation.')
+    parser_kfold.add_argument('dataSet', help='The dataset to partition into /\
+        k-1 folds for training and the remaining 1 for testing.')
+    parser_kfold.add_argument('k', help='The number of folds to run.')
+    parser_kfold.set_defaults(validation=kFoldFunc)
+    # create parser for "random" command (random subsampling)
+    parser_random = subparsers.add_parser('random', help='Random subsampling.')
+    parser_random.add_argument('dataSet', help='The dataset to split randomly /\
+        on a fixed number of examples without replacement.')
+    parser_random.add_argument('k', help='The number of data splits to run.')
+    parser_random.set_defaults(validation=randomFunc)
+    # parse arguments passed to program
+    args = parser.parse_args()
+    # call function specified
+    args.validation(args)
+
+#
+def holdoutFunc(args):
+    dc = DocumentClassifier()
+    dc.holdout(args.trainingSet, args.testSet)
+
+#
+def kFoldFunc(args):
+    dc = DocumentClassifier()
+    dc.kFold(args.dataSet, args.k)
+
+#
+def randomFunc(args):
+    dc = DocumentClassifier()
+    dc.random(args.dataSet, args.k)
+
 
 # main driver of program
 def main():
-    dc = DocumentClassifier(parseCommands())
-    dc.kFold(dc.args['dataSet'], int(dc.args['k']))
+    parseCommands()
+    # parseCommands())
+    # print dc.args
+    #dc.kFold(dc.args['dataSet'], int(dc.args['k']))
+    # bash script, avg and max of 2-15 k-folds
+    # wordcloud
 
 if __name__ == "__main__":
     main()
