@@ -27,7 +27,17 @@ attribute values are completely independent, given the classification.
 
 ## TO-DO
 ### Required
-- Alternative/additional data pre-processing  
+- Original Josh results (82%)
+- Design Doc
+- Bash script to get k=2...15 fold results
+- Visualization of k-fold results 
+
+### Extra  
+- Word Clouds for handful of topics
+- Randomized validation
+- Positivity/Negativity rating for politicians/scientists
+- N grams (uni-grams, bi-grams, tri-grams)
+- Maximum entropy classifier
 
 ## Other Ideas  
 #### Word frequency (lists of words and their frequencies)  
