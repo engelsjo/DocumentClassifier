@@ -1,5 +1,4 @@
-# DocumentClassifier
-## CIS 678 - Project 1
+# DocumentClassifier (CIS 678 - Project 2)
 
 ## Authors
 Michael Baldwin, Joshua Engelsma, Adam Terwilliger
@@ -20,17 +19,24 @@ algorithm is called “naïve” because it makes the simplifying assumption tha
 attribute values are completely independent, given the classification.
 
 ## Usage
-### Generic
-`python documentClassifier.py dataset.data k`
-### Example
-`python src/documentClassifier.py data/kfoldData/forum.data 3`
+### Holdout Method
+```
+python src/documentClassifier.py holdout data/trainData/forumTraining.data data/testData/forumTest.data
+```
+### K-Fold Cross Validation
+```
+python src/documentClassifier.py kfold data/mergedData/forum.data k
+```
+### Random Subsampling
+```
+python src/documentClassifier.py random data/mergedData/forum.data k
+```
 
 ## TO-DO
 ### Required
-- Original Josh results (82%)
 - Design Doc
-- Bash script to get k=2...15 fold results
-- Visualization of k-fold results 
+- Bash script to get k=2...15 fold results, avg and max
+- Visualization of k-fold results
 
 ### Extra  
 - Word Clouds for handful of topics

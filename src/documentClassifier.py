@@ -12,6 +12,7 @@ References:
 
 import argparse
 import math
+import random
 import progressbar
 
 # document type in a document classifier
@@ -43,14 +44,16 @@ class DocumentClassifier(object):
         # set of unique words in training documentss
         self.vocab = set()
         # dictionary of class names to document type objects
-        self.docTypes = {}
+        self.docTypes = dict()
         # number of test documents correctly classified
         self.numCorrect = 0
         # list of percentage corrects across k-trials
         self.percentCorrects = []
 
-    # reset classifier
+    # reset classifier when running classifier with k-trials
     def resetClassifier(self):
+        # reset everything except percent corrects since want to track these
+        # across k-trails to get average error rate
         self.numTrainDocs = 0
         self.numTestDocs = 0
         self.vocab = set()
@@ -202,12 +205,21 @@ class DocumentClassifier(object):
         trainLines = self.parseFile(trainingSet, '\n\r', ' ')
         # parse the test set
         testLines = self.parseFile(testSet, '\n\r', ' ')
+        # learn from training documents
+        self.learn(trainLines)
+        # classify unseen documents
+        self.classify(testLines)
+        # print current statistics of classifier
+        self.printStats()
 
     # k-fold cross validation where k is the number of iterations
     # average error is computed across all k trials
     # Reference: http://stackoverflow.com/questions/16379313/how-to-use-the-a-10-fold-cross-validation-with-naive-bayes-classifier-and-nltk
     def kFold(self, dataSet, k):
         print 'Naive bayes classification with %d-fold cross validation:' % (k)
+        # if k is less than 2, raise error
+        if k < 2:
+            raise ValueError('k must be at least 2 for K-Fold Cross Validation.')
         # parse the dataset into a list of lists
         lines = self.parseFile(dataSet, '\n\r', ' ')
         # calculate the offset based on the number of documents and k
@@ -231,13 +243,46 @@ class DocumentClassifier(object):
             self.percentCorrects.append( \
                             self.percentage(self.numCorrect, self.numTestDocs))
             # reset classifier for next iteration
-            # self.resetClassifier()
+            self.resetClassifier()
         # print average effectiveness (percent correct)
         self.printAvgPercent(k)
 
-    # random subsampling
+    # random subsampling without replacement where k is the number of splits
+    # Reference: https://docs.python.org/2/library/random.html
+    # Reference: http://stackoverflow.com/questions/17934785/remove-elements-in-one-list-present-in-another-list
     def random(self, dataSet, k):
-        print 'random'
+        print 'Naive bayes classification with random subsampling and %d-splits:' % (k)
+        # if k is less than 1, raise error
+        if k < 1:
+            raise ValueError('k must be at least 1 for Random Subsampling.')
+        # parse the dataset into a list of lists
+        lines = self.parseFile(dataSet, '\n\r', ' ')
+        # calculate the percentage of the dataset to use as the training set
+        # currently set to be between 25% and 75%
+        trainPercent = float(random.randint(25, 75)) / float(100)
+        # calculate the sample size to use
+        sampleSize = int(len(lines) * trainPercent)
+        # for each split, learn and classify
+        for i in range(0, k):
+            # create train set by randomly sampling without replacement
+            trainSet = random.sample(lines, sampleSize)
+            # create test set by choosing documents not in train set
+            testSet = [testDoc for testDoc in lines if testDoc not in trainSet]
+            # learn
+            self.learn(trainSet)
+            # classify unseen documents
+            self.classify(testSet)
+            # print current statistics of classifier
+            self.printStats()
+            # update the average percent effectiveness (percent correct)
+            self.percentCorrects.append( \
+                            self.percentage(self.numCorrect, self.numTestDocs))
+            # reset classifier to retrain from scratch
+            self.resetClassifier()
+        # print average effectiveness (percent correct)
+        self.printAvgPercent(k)
+
+
 
 # parse commands from the command line for execution
 # Reference: https://docs.python.org/dev/library/argparse.html#sub-commands
@@ -258,43 +303,37 @@ def parseCommands():
     parser_kfold = subparsers.add_parser('kfold', help='K-fold cross validation.')
     parser_kfold.add_argument('dataSet', help='The dataset to partition into /\
         k-1 folds for training and the remaining 1 for testing.')
-    parser_kfold.add_argument('k', help='The number of folds to run.')
+    parser_kfold.add_argument('k', type=int, help='The number of folds to run.')
     parser_kfold.set_defaults(validation=kFoldFunc)
     # create parser for "random" command (random subsampling)
     parser_random = subparsers.add_parser('random', help='Random subsampling.')
     parser_random.add_argument('dataSet', help='The dataset to split randomly /\
         on a fixed number of examples without replacement.')
-    parser_random.add_argument('k', help='The number of data splits to run.')
+    parser_random.add_argument('k', type=int, help='The number of data splits to run.')
     parser_random.set_defaults(validation=randomFunc)
     # parse arguments passed to program
     args = parser.parse_args()
     # call function specified
     args.validation(args)
 
-#
+# create document classifier and run holdout method
 def holdoutFunc(args):
     dc = DocumentClassifier()
     dc.holdout(args.trainingSet, args.testSet)
 
-#
+# create document classifier and run kfold cross validation
 def kFoldFunc(args):
     dc = DocumentClassifier()
     dc.kFold(args.dataSet, args.k)
 
-#
+# create document classifier and run random subsampling
 def randomFunc(args):
     dc = DocumentClassifier()
     dc.random(args.dataSet, args.k)
 
-
 # main driver of program
 def main():
     parseCommands()
-    # parseCommands())
-    # print dc.args
-    #dc.kFold(dc.args['dataSet'], int(dc.args['k']))
-    # bash script, avg and max of 2-15 k-folds
-    # wordcloud
 
 if __name__ == "__main__":
     main()
