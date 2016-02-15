@@ -13,7 +13,7 @@ References:
 import argparse
 import math
 import random
-import progressbar
+#import progressbar
 
 # document type in a document classifier
 class DocumentType(object):
@@ -72,7 +72,7 @@ class DocumentClassifier(object):
     # learn how to classify a document
     def learn(self, docList):
         # use progress bar to track computation time
-        bar = progressbar.ProgressBar(max_value=len(docList)).start()
+        #bar = progressbar.ProgressBar(max_value=len(docList)).start()
         print ('Learning from training documents:')
         # since each line is a training document, parse it
         for i in range(0, len(docList)):
@@ -81,9 +81,9 @@ class DocumentClassifier(object):
             doc = line[1:]
             self.parseTrainDoc(className, doc)
             # update progress bar
-            bar.update(i)
+            #bar.update(i)
         # finish progress bar
-        bar.finish()
+        #bar.finish()
         # after parsing all training documents, calculate probabilities
         self.calcClassProbs()
 
@@ -132,8 +132,8 @@ class DocumentClassifier(object):
     # classify unseen documents
     def classify(self, docList):
         # use progress bar to track computation time
-        bar = progressbar.ProgressBar(max_value=len(docList), \
-                                      redirect_stdout=True).start()
+        #bar = progressbar.ProgressBar(max_value=len(docList), \
+        #                              redirect_stdout=True).start()
         print ('Classifying test documents:')
         # since each line is a test document, parse it
         for i in range(0, len(docList)):
@@ -152,9 +152,9 @@ class DocumentClassifier(object):
             # display whether the classification was correct or not
             # print 'Classified: %s, Actual: %s' % (cnb, actualClass)
             # update the progress bar
-            bar.update(i)
+            #bar.update(i)
         # finish progress bar
-        bar.finish()
+        #bar.finish()
 
     # classify document using naive bayes classification
     # note: the "big product" is typically taken, but since probabilities are
