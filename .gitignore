@@ -1,4 +1,5 @@
-# Ignore wordcloud output
+# Ignore project files
+.temp/
 output/wordcloud/
 
 # Created by https://www.gitignore.io/api/python
