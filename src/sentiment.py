@@ -3,6 +3,8 @@ from stemming.porter2 import stem
 import numpy as np
 import sys
 import datetime as dt
+import re
+import preprocess_sentiment as ps
 
 # given a csv, generate a numpy array of lists 
 def read_csv_to_matrix(csv_file):
@@ -10,17 +12,20 @@ def read_csv_to_matrix(csv_file):
     #data_list = []
     with open(csv_file,'rb') as myfile:
         for line in myfile:
-            list_line = line.strip('\n"\r"').split(',')
-            #data_list.append(list_line)
-            #if list_line[1] in ("0", "1"):
-            data_dict[stem(list_line[3])] = list_line[1]
-            print list_line   
-    return data_dict
-    #return np.array(data_list)
+            list_line = line.strip('.:;\n"\r"').split(',')
 
-filename = "../Data/twitterData.csv"
+            text = stem(list_line[3])            
+            text = ps.processAll(text)
+            #print text
 
-myList = read_csv_to_matrix(filename)
+            if list_line[1] == "1":
+                print "POSITIVE "+text
+            elif list_line[1] == "0":
+                print "NEGATIVE "+text
+
+filename = "../../twitterData.csv"
+
+read_csv_to_matrix(filename)
 
 #print myList
 
