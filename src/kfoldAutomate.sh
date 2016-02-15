@@ -3,8 +3,8 @@
 PY_PROGRAM=src/documentClassifier.py
 PY_COMMAND=kfold
 PY_DATASET=data/mergedData/forum.data
-BASH_KFOLD=output/kfold_stdout.txt
-BASH_PERCENT=output/kfold_percents.txt
+BASH_KFOLD=.temp/kfold_stdout.txt
+BASH_PERCENT=.temp/kfold_percents.txt
 PY_AGGREGATE=src/kfoldStats.py
 
 # ensure that argument for number of iterations provided

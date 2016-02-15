@@ -1,0 +1,22 @@
+Naive bayes classification with 5-fold cross validation:
+Learning from training documents:
+Classifying test documents:
+Classifier Effectiveness:
+Correct: 1727, Total: 3764, Effectiveness: 45%
+Learning from training documents:
+Classifying test documents:
+Classifier Effectiveness:
+Correct: 2133, Total: 3764, Effectiveness: 56%
+Learning from training documents:
+Classifying test documents:
+Classifier Effectiveness:
+Correct: 2057, Total: 3764, Effectiveness: 54%
+Learning from training documents:
+Classifying test documents:
+Classifier Effectiveness:
+Correct: 2557, Total: 3764, Effectiveness: 67%
+Learning from training documents:
+Classifying test documents:
+Classifier Effectiveness:
+Correct: 2845, Total: 3764, Effectiveness: 75%
+Average Effectiveness across 5-trials: 60%

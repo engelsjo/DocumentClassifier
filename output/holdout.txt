@@ -1,5 +1,0 @@
-Naive bayes classification with holdout method
-Learning from training documents:
-Classifying test documents:
-Classifier Effectiveness:
-Correct: 6016, Total: 7528, Effectiveness: 79%

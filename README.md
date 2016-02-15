@@ -39,6 +39,10 @@ python src/documentClassifier.py random data/mergedData/forum.data k
 ```
 bash src/kfoldAutomate.sh n
 ```
+### Word Cloud Visualization by Class
+```
+python src/wordcloudPreprocess.py data/mergedData/forum-stemmed.data
+```
 
 ## TO-DO
 ### Required
