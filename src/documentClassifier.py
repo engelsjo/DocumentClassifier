@@ -225,7 +225,7 @@ class DocumentClassifier(object):
             self.percentCorrects.append( \
                             self.percentage(self.numCorrect, self.numTestDocs))
             # reset classifier for next iteration
-            self.resetClassifier()
+            # self.resetClassifier()
         # print average effectiveness (percent correct)
         self.printAvgPercent(k)
 
