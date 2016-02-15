@@ -1,3 +1,6 @@
+# Ignore wordcloud output
+output/wordcloud/
+
 # Created by https://www.gitignore.io/api/python
 
 ### Python ###
