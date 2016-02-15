@@ -39,6 +39,9 @@ attribute values are completely independent, given the classification.
 - N grams (uni-grams, bi-grams, tri-grams)
 - Maximum entropy classifier
 
+### Credits
+- Twitter-Sentiment-Credits[https://github.com/yogeshg/Twitter-Sentiment]
+
 ## Other Ideas  
 #### Word frequency (lists of words and their frequencies)  
 #### Collocation (words commonly appearing near each other)   
