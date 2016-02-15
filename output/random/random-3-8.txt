@@ -1,0 +1,14 @@
+Naive bayes classification with random subsampling and 3-splits:
+Learning from training documents:
+Classifying test documents:
+Classifier Effectiveness:
+Correct: 3324, Total: 3756, Effectiveness: 88%
+Learning from training documents:
+Classifying test documents:
+Classifier Effectiveness:
+Correct: 3309, Total: 3758, Effectiveness: 88%
+Learning from training documents:
+Classifying test documents:
+Classifier Effectiveness:
+Correct: 3328, Total: 3760, Effectiveness: 88%
+Average Effectiveness across 3-trials: 88%

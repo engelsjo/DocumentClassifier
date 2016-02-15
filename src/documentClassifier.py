@@ -230,16 +230,17 @@ class DocumentClassifier(object):
     # random subsampling without replacement where k is the number of splits
     # Reference: https://docs.python.org/2/library/random.html
     # Reference: http://stackoverflow.com/questions/17934785/remove-elements-in-one-list-present-in-another-list
-    def random(self, dataSet, k):
+    # Reference: https://www.youtube.com/watch?v=OcJwdF8zBjM
+    def random(self, dataSet, k, s):
         print 'Naive bayes classification with random subsampling and %d-splits:' % (k)
         # if k is less than 1, raise error
         if k < 1:
             raise ValueError('k must be at least 1 for Random Subsampling.')
         # parse the dataset into a list of lists
         lines = self.parseFile(dataSet, '\n\r', ' ')
-        # calculate the percentage of the dataset to use as the training set
-        # currently set to be between 25% and 75%
-        trainPercent = float(random.randint(25, 75)) / float(100)
+        # set the percentage of the dataset to use as the training set
+        # where expected s to be 80 for 80% being the training set
+        trainPercent = float(s) / float(100)
         # calculate the sample size to use
         sampleSize = int(len(lines) * trainPercent)
         # for each split, learn and classify
@@ -310,6 +311,7 @@ def parseCommands():
     parser_random.add_argument('dataSet', help='The dataset to split randomly /\
         on a fixed number of examples without replacement.')
     parser_random.add_argument('k', type=int, help='The number of data splits to run.')
+    parser_random.add_argument('s', type=int, help='The size of the training set.')
     parser_random.set_defaults(validation=randomFunc)
     # parse arguments passed to program
     args = parser.parse_args()
@@ -329,7 +331,7 @@ def kFoldFunc(args):
 # create document classifier and run random subsampling
 def randomFunc(args):
     dc = DocumentClassifier()
-    dc.random(args.dataSet, args.k)
+    dc.random(args.dataSet, args.k, args.s)
 
 # main driver of program
 def main():

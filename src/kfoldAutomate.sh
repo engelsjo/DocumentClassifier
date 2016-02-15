@@ -6,6 +6,7 @@ PY_DATASET=data/mergedData/forum.data
 BASH_KFOLD=.temp/kfold_stdout.txt
 BASH_PERCENT=.temp/kfold_percents.txt
 PY_AGGREGATE=src/kfoldStats.py
+PY_OUTPUT=output/kfold/trials.txt
 
 # ensure that argument for number of iterations provided
 # Reference:
@@ -14,6 +15,9 @@ if [ -z "$1" ]; then
     echo "Missing argument for number of iterations to run!"
     exit 1
 fi
+
+# make temp directory in case doesnt exist
+mkdir -p .temp
 
 # remove old data
 rm -f ${BASH_KFOLD}
@@ -46,4 +50,7 @@ for (( n=$START; n<=$END; n++ )); do
 done
 
 # use python script to find the average and maximum of the percentages
-python ${PY_AGGREGATE} ${BASH_PERCENT}
+python ${PY_AGGREGATE} ${BASH_PERCENT} > ${PY_OUTPUT}
+
+# print final trials max and average to the std out
+cat ${PY_OUTPUT}

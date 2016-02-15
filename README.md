@@ -19,7 +19,7 @@ algorithm is called “naïve” because it makes the simplifying assumption tha
 attribute values are completely independent, given the classification.
 
 ## Usage
-### Progress Bar
+### Install Progress Bar
 ```
 sudo pip install progressbar2
 ```
@@ -33,26 +33,24 @@ python src/documentClassifier.py kfold data/mergedData/forum.data k
 ```
 ### Random Subsampling
 ```
-python src/documentClassifier.py random data/mergedData/forum.data k
+python src/documentClassifier.py random data/mergedData/forum.data k s
 ```
-### Automate n K-Fold Trials
+### Automate N K-Fold Trials
 ```
 bash src/kfoldAutomate.sh n
 ```
 ### Word Cloud Visualization by Class
 ```
-python src/wordcloudPreprocess.py data/mergedData/forum-stemmed.data
+python src/wordcloudPreprocess.py data/mergedData/forum.data
+http://www.wordle.net/create
 ```
 
 ## TO-DO
 ### Required
 - Design Doc
-- Bash script to get k=2...15 fold results, avg and max
 - Visualization of k-fold results
 
 ### Extra  
-- Word Clouds for handful of topics
-- Randomized validation
 - Positivity/Negativity rating for politicians/scientists
 - N grams (uni-grams, bi-grams, tri-grams)
 - Maximum entropy classifier
