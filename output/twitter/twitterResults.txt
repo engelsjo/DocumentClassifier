@@ -1,3 +1,75 @@
+../data/twitterData/AnaKasparian_tweets_edit.csv
+Correct: 2130, Total: 2691, Effectiveness: 79%
+
+../data/twitterData/BarackObama_tweets_edit.csv
+Correct: 1985, Total: 2416, Effectiveness: 82%
+
+../data/twitterData/BernieSanders_tweets_edit.csv
+Correct: 1284, Total: 2064, Effectiveness: 62%
+
+../data/twitterData/BillGates_tweets_edit.csv
+Correct: 1208, Total: 1442, Effectiveness: 83%
+
+../data/twitterData/BillNye_tweets_edit.csv
+Correct: 806, Total: 953, Effectiveness: 84%
+
+../data/twitterData/CERN_tweets_edit.csv
+Correct: 1548, Total: 1704, Effectiveness: 90%
+
+../data/twitterData/HanSoloFA_tweets_edit.csv
+Correct: 306, Total: 438, Effectiveness: 69%
+
+../data/twitterData/HillaryClinton_tweets_edit.csv
+Correct: 1492, Total: 2123, Effectiveness: 70%
+
+../data/twitterData/JebBush_tweets_edit.csv
+Correct: 1782, Total: 2258, Effectiveness: 78%
+
+../data/twitterData/JohnKasich_tweets_edit.csv
+Correct: 1979, Total: 2335, Effectiveness: 84%
+
+../data/twitterData/KyloR3n_tweets_edit.csv
+Correct: 126, Total: 254, Effectiveness: 49%
+
+../data/twitterData/NASA_tweets_edit.csv
+Correct: 2107, Total: 2326, Effectiveness: 90%
+
+../data/twitterData/RealBenCarson_tweets_edit.csv
+Correct: 1732, Total: 1989, Effectiveness: 87%
+
+../data/twitterData/RichardDawkins_tweets_edit.csv
+Correct: 1485, Total: 2135, Effectiveness: 69%
+
+../data/twitterData/SpaceX_tweets_edit.csv
+Correct: 1791, Total: 2033, Effectiveness: 88%
+
+../data/twitterData/StephenAtHome_tweets_edit.csv
+Correct: 937, Total: 1551, Effectiveness: 60%
+
+../data/twitterData/VeryLonelyLuke_tweets_edit.csv
+Correct: 183, Total: 590, Effectiveness: 31%
+
+../data/twitterData/cenkuygur_tweets_edit.csv
+Correct: 1897, Total: 2406, Effectiveness: 78%
+
+../data/twitterData/jiadarola_tweets_edit.csv
+Correct: 1436, Total: 2332, Effectiveness: 61%
+
+../data/twitterData/marcorubio_tweets_edit.csv
+Correct: 2057, Total: 2454, Effectiveness: 83%
+
+../data/twitterData/michiokaku_tweets_edit.csv
+Correct: 666, Total: 805, Effectiveness: 82%
+
+../data/twitterData/neiltyson_tweets_edit.csv
+Correct: 1136, Total: 1560, Effectiveness: 72%
+
+../data/twitterData/realDonaldTrump_tweets_edit.csv
+Correct: 1593, Total: 2141, Effectiveness: 74%
+
 ../data/twitterData/taylorswift13_tweets_edit.csv
 Correct: 2062, Total: 2432, Effectiveness: 84%
+
+../data/twitterData/tedcruz_tweets_edit.csv
+Correct: 2069, Total: 2312, Effectiveness: 89%
 
