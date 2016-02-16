@@ -130,3 +130,9 @@ Correct: 9218, Total: 10710, Effectiveness: 86%
 Naive bayes classification with random subsampling at 44-percent:
 Correct: 9060, Total: 10528, Effectiveness: 86%
 
+Naive bayes classification with random subsampling at 45-percent:
+Correct: 8766, Total: 10327, Effectiveness: 84%
+
+Naive bayes classification with random subsampling at 46-percent:
+Correct: 8645, Total: 10144, Effectiveness: 85%
+
