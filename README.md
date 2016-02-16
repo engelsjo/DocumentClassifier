@@ -30,7 +30,6 @@ attribute values are completely independent, given the classification.
 - Maximum entropy classifier
 
 ## Project Info
-### Dataset
 - [Project Info](http://www.cis.gvsu.edu/~wolffe/courses/cs678/projects/project2.pdf)
 - [Training Dataset](http://www.cis.gvsu.edu/~wolffe/courses/cs678/projects/forumTraining.data)
 - [Test Dataset](http://www.cis.gvsu.edu/~wolffe/courses/cs678/projects/forumTest.data)
