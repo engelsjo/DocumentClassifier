@@ -3,7 +3,8 @@
 # python program and dataset
 PY_PROGRAM=src/documentClassifier.py
 PY_COMMAND=random
-PY_DATASET=data/mergedData/forum.data
+#PY_DATASET=data/mergedData/forum.data
+PY_DATASET=data/twitterData/sampleTwitterData.txt
 
 # bash temp results
 BASH_RANDOM=.temp/random_stdout.txt
