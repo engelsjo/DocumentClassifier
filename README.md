@@ -21,13 +21,7 @@ attribute values are completely independent, given the classification.
 ## TO-DO
 ### Required
 - Design Doc
-- Run random for k-fold percents (50/50, 40/60, 30/60, 20/80, ...)
 - Visualization of validation results
-
-### Extra  
-- Positivity/Negativity rating for politicians/scientists
-- N grams (uni-grams, bi-grams, tri-grams)
-- Maximum entropy classifier
 
 ## Project Info
 - [Project Info](http://www.cis.gvsu.edu/~wolffe/courses/cs678/projects/project2.pdf)

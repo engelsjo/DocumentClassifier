@@ -15,3 +15,6 @@ Document Classification using the Naive Bayes Algorithm
 - [Python - Time Complexity of Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 - [Python Progress Bar](https://github.com/WoLpH/python-progressbar)
 - [Python K-fold Cross Validation](http://stackoverflow.com/questions/16379313/how-to-use-the-a-10-fold-cross-validation-with-naive-bayes-classifier-and-nltk)
+- [Twitter for Python] (https://gist.github.com/yanofsky/5436496, http://www.tweepy.org/)
+- [Twitter-sentiment] (https://github.com/yogeshg/Twitter-Sentiment)
+- [Stemming] (https://bitbucket.org/mchaput/stemming)

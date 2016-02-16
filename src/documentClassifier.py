@@ -196,7 +196,7 @@ class DocumentClassifier(object):
     # average error is computed across all k trials
     # Reference: http://stackoverflow.com/questions/16379313/how-to-use-the-a-10-fold-cross-validation-with-naive-bayes-classifier-and-nltk
     def kFold(self, dataSet, k):
-        print 'Naive bayes classification with %d-fold cross validation:' % (k)
+        #print 'Naive bayes classification with %d-fold cross validation:' % (k)
         # if k is less than 2, raise error
         if k < 2:
             raise ValueError('k must be at least 2 for K-Fold Cross Validation.')
@@ -232,7 +232,7 @@ class DocumentClassifier(object):
     # Reference: http://stackoverflow.com/questions/17934785/remove-elements-in-one-list-present-in-another-list
     # Reference: https://www.youtube.com/watch?v=OcJwdF8zBjM
     def random(self, dataSet, k, s):
-        print 'Naive bayes classification with random subsampling and %d-splits:' % (k)
+        print 'Naive bayes classification with random subsampling at %d-percent:' % (s)
         # if k is less than 1, raise error
         if k < 1:
             raise ValueError('k must be at least 1 for Random Subsampling.')
@@ -261,7 +261,7 @@ class DocumentClassifier(object):
             # reset classifier to retrain from scratch
             self.resetClassifier()
         # print average effectiveness (percent correct)
-        self.printAvgPercent(k)
+        #self.printAvgPercent(k)
 
     # print statistics on classifier effectiveness
     def printStats(self):

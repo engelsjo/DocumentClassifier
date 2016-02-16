@@ -1,0 +1,2079 @@
+Naive bayes classification with random subsampling at 1-percent:
+Correct: 6484, Total: 9900, Effectiveness: 65%
+
+Correct: 6325, Total: 9900, Effectiveness: 63%
+
+Correct: 6155, Total: 9898, Effectiveness: 62%
+
+Correct: 6445, Total: 9898, Effectiveness: 65%
+
+Correct: 6272, Total: 9899, Effectiveness: 63%
+
+Correct: 6292, Total: 9898, Effectiveness: 63%
+
+Correct: 6470, Total: 9900, Effectiveness: 65%
+
+Correct: 6274, Total: 9899, Effectiveness: 63%
+
+Correct: 6292, Total: 9899, Effectiveness: 63%
+
+Correct: 5838, Total: 9899, Effectiveness: 58%
+
+Naive bayes classification with random subsampling at 2-percent:
+Correct: 6564, Total: 9796, Effectiveness: 67%
+
+Correct: 6442, Total: 9794, Effectiveness: 65%
+
+Correct: 6626, Total: 9798, Effectiveness: 67%
+
+Correct: 6220, Total: 9798, Effectiveness: 63%
+
+Correct: 6285, Total: 9798, Effectiveness: 64%
+
+Correct: 6163, Total: 9793, Effectiveness: 62%
+
+Correct: 6442, Total: 9797, Effectiveness: 65%
+
+Correct: 6419, Total: 9798, Effectiveness: 65%
+
+Correct: 6514, Total: 9798, Effectiveness: 66%
+
+Correct: 6560, Total: 9796, Effectiveness: 66%
+
+Naive bayes classification with random subsampling at 3-percent:
+Correct: 6460, Total: 9698, Effectiveness: 66%
+
+Correct: 6438, Total: 9694, Effectiveness: 66%
+
+Correct: 6638, Total: 9697, Effectiveness: 68%
+
+Correct: 6711, Total: 9698, Effectiveness: 69%
+
+Correct: 6622, Total: 9692, Effectiveness: 68%
+
+Correct: 6659, Total: 9696, Effectiveness: 68%
+
+Correct: 6494, Total: 9698, Effectiveness: 66%
+
+Correct: 6553, Total: 9695, Effectiveness: 67%
+
+Correct: 6379, Total: 9699, Effectiveness: 65%
+
+Correct: 6396, Total: 9691, Effectiveness: 65%
+
+Naive bayes classification with random subsampling at 4-percent:
+Correct: 6555, Total: 9594, Effectiveness: 68%
+
+Correct: 6733, Total: 9597, Effectiveness: 70%
+
+Correct: 6486, Total: 9594, Effectiveness: 67%
+
+Correct: 6380, Total: 9594, Effectiveness: 66%
+
+Correct: 6556, Total: 9595, Effectiveness: 68%
+
+Correct: 6536, Total: 9591, Effectiveness: 68%
+
+Correct: 6511, Total: 9597, Effectiveness: 67%
+
+Correct: 6390, Total: 9590, Effectiveness: 66%
+
+Correct: 6658, Total: 9597, Effectiveness: 69%
+
+Correct: 6595, Total: 9596, Effectiveness: 68%
+
+Naive bayes classification with random subsampling at 5-percent:
+Correct: 6467, Total: 9491, Effectiveness: 68%
+
+Correct: 6284, Total: 9496, Effectiveness: 66%
+
+Correct: 6570, Total: 9493, Effectiveness: 69%
+
+Correct: 6406, Total: 9495, Effectiveness: 67%
+
+Correct: 6617, Total: 9498, Effectiveness: 69%
+
+Correct: 6537, Total: 9492, Effectiveness: 68%
+
+Correct: 6472, Total: 9496, Effectiveness: 68%
+
+Correct: 6413, Total: 9491, Effectiveness: 67%
+
+Correct: 6505, Total: 9498, Effectiveness: 68%
+
+Correct: 6400, Total: 9497, Effectiveness: 67%
+
+Naive bayes classification with random subsampling at 6-percent:
+Correct: 6436, Total: 9391, Effectiveness: 68%
+
+Correct: 6305, Total: 9396, Effectiveness: 67%
+
+Correct: 6454, Total: 9392, Effectiveness: 68%
+
+Correct: 6536, Total: 9397, Effectiveness: 69%
+
+Correct: 6371, Total: 9395, Effectiveness: 67%
+
+Correct: 6382, Total: 9392, Effectiveness: 67%
+
+Correct: 6477, Total: 9398, Effectiveness: 68%
+
+Correct: 6316, Total: 9396, Effectiveness: 67%
+
+Correct: 6500, Total: 9390, Effectiveness: 69%
+
+Correct: 6316, Total: 9398, Effectiveness: 67%
+
+Naive bayes classification with random subsampling at 7-percent:
+Correct: 6375, Total: 9292, Effectiveness: 68%
+
+Correct: 6502, Total: 9297, Effectiveness: 69%
+
+Correct: 6462, Total: 9293, Effectiveness: 69%
+
+Correct: 6471, Total: 9298, Effectiveness: 69%
+
+Correct: 6573, Total: 9291, Effectiveness: 70%
+
+Correct: 6517, Total: 9284, Effectiveness: 70%
+
+Correct: 6431, Total: 9295, Effectiveness: 69%
+
+Correct: 6390, Total: 9289, Effectiveness: 68%
+
+Correct: 6504, Total: 9294, Effectiveness: 69%
+
+Correct: 6293, Total: 9291, Effectiveness: 67%
+
+Naive bayes classification with random subsampling at 8-percent:
+Correct: 6439, Total: 9188, Effectiveness: 70%
+
+Correct: 6357, Total: 9191, Effectiveness: 69%
+
+Correct: 6560, Total: 9195, Effectiveness: 71%
+
+Correct: 6266, Total: 9187, Effectiveness: 68%
+
+Correct: 6464, Total: 9194, Effectiveness: 70%
+
+Correct: 6390, Total: 9189, Effectiveness: 69%
+
+Correct: 6436, Total: 9196, Effectiveness: 69%
+
+Correct: 6416, Total: 9188, Effectiveness: 69%
+
+Correct: 6394, Total: 9192, Effectiveness: 69%
+
+Correct: 6366, Total: 9196, Effectiveness: 69%
+
+Naive bayes classification with random subsampling at 9-percent:
+Correct: 6292, Total: 9093, Effectiveness: 69%
+
+Correct: 6291, Total: 9087, Effectiveness: 69%
+
+Correct: 6406, Total: 9089, Effectiveness: 70%
+
+Correct: 6264, Total: 9088, Effectiveness: 68%
+
+Correct: 6284, Total: 9090, Effectiveness: 69%
+
+Correct: 6378, Total: 9087, Effectiveness: 70%
+
+Correct: 6324, Total: 9086, Effectiveness: 69%
+
+Correct: 6174, Total: 9087, Effectiveness: 67%
+
+Correct: 6374, Total: 9090, Effectiveness: 70%
+
+Correct: 6332, Total: 9087, Effectiveness: 69%
+
+Naive bayes classification with random subsampling at 10-percent:
+Correct: 6281, Total: 8988, Effectiveness: 69%
+
+Correct: 6322, Total: 8984, Effectiveness: 70%
+
+Correct: 6344, Total: 8990, Effectiveness: 70%
+
+Correct: 6418, Total: 8985, Effectiveness: 71%
+
+Correct: 6265, Total: 8986, Effectiveness: 69%
+
+Correct: 6434, Total: 8988, Effectiveness: 71%
+
+Correct: 6268, Total: 8984, Effectiveness: 69%
+
+Correct: 6355, Total: 8986, Effectiveness: 70%
+
+Correct: 6171, Total: 8992, Effectiveness: 68%
+
+Correct: 6173, Total: 8993, Effectiveness: 68%
+
+Naive bayes classification with random subsampling at 11-percent:
+Correct: 6363, Total: 8889, Effectiveness: 71%
+
+Correct: 6258, Total: 8890, Effectiveness: 70%
+
+Correct: 6196, Total: 8892, Effectiveness: 69%
+
+Correct: 6232, Total: 8894, Effectiveness: 70%
+
+Correct: 6258, Total: 8890, Effectiveness: 70%
+
+Correct: 6248, Total: 8888, Effectiveness: 70%
+
+Correct: 6246, Total: 8888, Effectiveness: 70%
+
+Correct: 6333, Total: 8884, Effectiveness: 71%
+
+Correct: 6273, Total: 8889, Effectiveness: 70%
+
+Correct: 6248, Total: 8887, Effectiveness: 70%
+
+Naive bayes classification with random subsampling at 12-percent:
+Correct: 6155, Total: 8784, Effectiveness: 70%
+
+Correct: 6138, Total: 8785, Effectiveness: 69%
+
+Correct: 6124, Total: 8784, Effectiveness: 69%
+
+Correct: 6178, Total: 8790, Effectiveness: 70%
+
+Correct: 6087, Total: 8786, Effectiveness: 69%
+
+Correct: 6307, Total: 8781, Effectiveness: 71%
+
+Correct: 6302, Total: 8788, Effectiveness: 71%
+
+Correct: 6223, Total: 8795, Effectiveness: 70%
+
+Correct: 6130, Total: 8782, Effectiveness: 69%
+
+Correct: 6295, Total: 8791, Effectiveness: 71%
+
+Naive bayes classification with random subsampling at 13-percent:
+Correct: 6047, Total: 8693, Effectiveness: 69%
+
+Correct: 6106, Total: 8683, Effectiveness: 70%
+
+Correct: 6178, Total: 8691, Effectiveness: 71%
+
+Correct: 6027, Total: 8680, Effectiveness: 69%
+
+Correct: 6070, Total: 8684, Effectiveness: 69%
+
+Correct: 6095, Total: 8689, Effectiveness: 70%
+
+Correct: 6204, Total: 8689, Effectiveness: 71%
+
+Correct: 6140, Total: 8684, Effectiveness: 70%
+
+Correct: 6149, Total: 8688, Effectiveness: 70%
+
+Correct: 6078, Total: 8686, Effectiveness: 69%
+
+Naive bayes classification with random subsampling at 14-percent:
+Correct: 6103, Total: 8588, Effectiveness: 71%
+
+Correct: 6039, Total: 8582, Effectiveness: 70%
+
+Correct: 6069, Total: 8580, Effectiveness: 70%
+
+Correct: 6063, Total: 8589, Effectiveness: 70%
+
+Correct: 6090, Total: 8588, Effectiveness: 70%
+
+Correct: 6073, Total: 8591, Effectiveness: 70%
+
+Correct: 5961, Total: 8586, Effectiveness: 69%
+
+Correct: 5986, Total: 8585, Effectiveness: 69%
+
+Correct: 6107, Total: 8590, Effectiveness: 71%
+
+Correct: 6021, Total: 8590, Effectiveness: 70%
+
+Naive bayes classification with random subsampling at 15-percent:
+Correct: 5983, Total: 8486, Effectiveness: 70%
+
+Correct: 5957, Total: 8484, Effectiveness: 70%
+
+Correct: 5968, Total: 8481, Effectiveness: 70%
+
+Correct: 6053, Total: 8490, Effectiveness: 71%
+
+Correct: 6015, Total: 8488, Effectiveness: 70%
+
+Correct: 6008, Total: 8479, Effectiveness: 70%
+
+Correct: 6100, Total: 8490, Effectiveness: 71%
+
+Correct: 6035, Total: 8483, Effectiveness: 71%
+
+Correct: 6064, Total: 8484, Effectiveness: 71%
+
+Correct: 5970, Total: 8486, Effectiveness: 70%
+
+Naive bayes classification with random subsampling at 16-percent:
+Correct: 5975, Total: 8383, Effectiveness: 71%
+
+Correct: 6042, Total: 8386, Effectiveness: 72%
+
+Correct: 5943, Total: 8384, Effectiveness: 70%
+
+Correct: 5970, Total: 8387, Effectiveness: 71%
+
+Correct: 6023, Total: 8387, Effectiveness: 71%
+
+Correct: 5987, Total: 8384, Effectiveness: 71%
+
+Correct: 5862, Total: 8387, Effectiveness: 69%
+
+Correct: 5941, Total: 8386, Effectiveness: 70%
+
+Correct: 5964, Total: 8390, Effectiveness: 71%
+
+Correct: 6042, Total: 8381, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 17-percent:
+Correct: 5930, Total: 8277, Effectiveness: 71%
+
+Correct: 5816, Total: 8282, Effectiveness: 70%
+
+Correct: 5849, Total: 8287, Effectiveness: 70%
+
+Correct: 5854, Total: 8283, Effectiveness: 70%
+
+Correct: 5945, Total: 8284, Effectiveness: 71%
+
+Correct: 5906, Total: 8281, Effectiveness: 71%
+
+Correct: 5956, Total: 8276, Effectiveness: 71%
+
+Correct: 5959, Total: 8287, Effectiveness: 71%
+
+Correct: 5916, Total: 8285, Effectiveness: 71%
+
+Correct: 5934, Total: 8286, Effectiveness: 71%
+
+Naive bayes classification with random subsampling at 18-percent:
+Correct: 5905, Total: 8177, Effectiveness: 72%
+
+Correct: 5875, Total: 8187, Effectiveness: 71%
+
+Correct: 5843, Total: 8179, Effectiveness: 71%
+
+Correct: 5808, Total: 8187, Effectiveness: 70%
+
+Correct: 5851, Total: 8183, Effectiveness: 71%
+
+Correct: 5845, Total: 8182, Effectiveness: 71%
+
+Correct: 5763, Total: 8183, Effectiveness: 70%
+
+Correct: 5904, Total: 8183, Effectiveness: 72%
+
+Correct: 5833, Total: 8184, Effectiveness: 71%
+
+Correct: 5856, Total: 8180, Effectiveness: 71%
+
+Naive bayes classification with random subsampling at 19-percent:
+Correct: 5703, Total: 8081, Effectiveness: 70%
+
+Correct: 5822, Total: 8080, Effectiveness: 72%
+
+Correct: 5850, Total: 8082, Effectiveness: 72%
+
+Correct: 5825, Total: 8086, Effectiveness: 72%
+
+Correct: 5761, Total: 8083, Effectiveness: 71%
+
+Correct: 5831, Total: 8080, Effectiveness: 72%
+
+Correct: 5817, Total: 8077, Effectiveness: 72%
+
+Correct: 5743, Total: 8084, Effectiveness: 71%
+
+Correct: 5741, Total: 8081, Effectiveness: 71%
+
+Correct: 5802, Total: 8083, Effectiveness: 71%
+
+Naive bayes classification with random subsampling at 20-percent:
+Correct: 5682, Total: 7981, Effectiveness: 71%
+
+Correct: 5775, Total: 7979, Effectiveness: 72%
+
+Correct: 5699, Total: 7981, Effectiveness: 71%
+
+Correct: 5685, Total: 7977, Effectiveness: 71%
+
+Correct: 5784, Total: 7977, Effectiveness: 72%
+
+Correct: 5739, Total: 7985, Effectiveness: 71%
+
+Correct: 5726, Total: 7984, Effectiveness: 71%
+
+Correct: 5698, Total: 7984, Effectiveness: 71%
+
+Correct: 5714, Total: 7984, Effectiveness: 71%
+
+Correct: 5642, Total: 7982, Effectiveness: 70%
+
+Naive bayes classification with random subsampling at 21-percent:
+Correct: 5733, Total: 7881, Effectiveness: 72%
+
+Correct: 5632, Total: 7888, Effectiveness: 71%
+
+Correct: 5656, Total: 7879, Effectiveness: 71%
+
+Correct: 5641, Total: 7879, Effectiveness: 71%
+
+Correct: 5634, Total: 7877, Effectiveness: 71%
+
+Correct: 5659, Total: 7880, Effectiveness: 71%
+
+Correct: 5664, Total: 7880, Effectiveness: 71%
+
+Correct: 5685, Total: 7879, Effectiveness: 72%
+
+Correct: 5598, Total: 7880, Effectiveness: 71%
+
+Correct: 5648, Total: 7879, Effectiveness: 71%
+
+Naive bayes classification with random subsampling at 22-percent:
+Correct: 5717, Total: 7784, Effectiveness: 73%
+
+Correct: 5609, Total: 7787, Effectiveness: 72%
+
+Correct: 5555, Total: 7781, Effectiveness: 71%
+
+Correct: 5595, Total: 7782, Effectiveness: 71%
+
+Correct: 5584, Total: 7787, Effectiveness: 71%
+
+Correct: 5584, Total: 7784, Effectiveness: 71%
+
+Correct: 5535, Total: 7779, Effectiveness: 71%
+
+Correct: 5685, Total: 7773, Effectiveness: 73%
+
+Correct: 5618, Total: 7786, Effectiveness: 72%
+
+Correct: 5589, Total: 7779, Effectiveness: 71%
+
+Naive bayes classification with random subsampling at 23-percent:
+Correct: 5481, Total: 7683, Effectiveness: 71%
+
+Correct: 5550, Total: 7683, Effectiveness: 72%
+
+Correct: 5541, Total: 7683, Effectiveness: 72%
+
+Correct: 5471, Total: 7682, Effectiveness: 71%
+
+Correct: 5464, Total: 7679, Effectiveness: 71%
+
+Correct: 5456, Total: 7681, Effectiveness: 71%
+
+Correct: 5517, Total: 7674, Effectiveness: 71%
+
+Correct: 5561, Total: 7684, Effectiveness: 72%
+
+Correct: 5528, Total: 7678, Effectiveness: 71%
+
+Correct: 5508, Total: 7681, Effectiveness: 71%
+
+Naive bayes classification with random subsampling at 24-percent:
+Correct: 5450, Total: 7574, Effectiveness: 71%
+
+Correct: 5439, Total: 7581, Effectiveness: 71%
+
+Correct: 5473, Total: 7578, Effectiveness: 72%
+
+Correct: 5433, Total: 7570, Effectiveness: 71%
+
+Correct: 5518, Total: 7583, Effectiveness: 72%
+
+Correct: 5471, Total: 7582, Effectiveness: 72%
+
+Correct: 5388, Total: 7583, Effectiveness: 71%
+
+Correct: 5422, Total: 7580, Effectiveness: 71%
+
+Correct: 5420, Total: 7581, Effectiveness: 71%
+
+Correct: 5444, Total: 7581, Effectiveness: 71%
+
+Naive bayes classification with random subsampling at 25-percent:
+Correct: 5274, Total: 7473, Effectiveness: 70%
+
+Correct: 5426, Total: 7471, Effectiveness: 72%
+
+Correct: 5423, Total: 7478, Effectiveness: 72%
+
+Correct: 5405, Total: 7485, Effectiveness: 72%
+
+Correct: 5378, Total: 7477, Effectiveness: 71%
+
+Correct: 5390, Total: 7476, Effectiveness: 72%
+
+Correct: 5471, Total: 7479, Effectiveness: 73%
+
+Correct: 5498, Total: 7478, Effectiveness: 73%
+
+Correct: 5454, Total: 7476, Effectiveness: 72%
+
+Correct: 5445, Total: 7479, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 26-percent:
+Correct: 5301, Total: 7374, Effectiveness: 71%
+
+Correct: 5319, Total: 7378, Effectiveness: 72%
+
+Correct: 5329, Total: 7370, Effectiveness: 72%
+
+Correct: 5360, Total: 7380, Effectiveness: 72%
+
+Correct: 5380, Total: 7379, Effectiveness: 72%
+
+Correct: 5380, Total: 7375, Effectiveness: 72%
+
+Correct: 5281, Total: 7377, Effectiveness: 71%
+
+Correct: 5339, Total: 7377, Effectiveness: 72%
+
+Correct: 5351, Total: 7382, Effectiveness: 72%
+
+Correct: 5231, Total: 7383, Effectiveness: 70%
+
+Naive bayes classification with random subsampling at 27-percent:
+Correct: 5256, Total: 7279, Effectiveness: 72%
+
+Correct: 5299, Total: 7278, Effectiveness: 72%
+
+Correct: 5223, Total: 7277, Effectiveness: 71%
+
+Correct: 5269, Total: 7276, Effectiveness: 72%
+
+Correct: 5270, Total: 7283, Effectiveness: 72%
+
+Correct: 5199, Total: 7284, Effectiveness: 71%
+
+Correct: 5264, Total: 7276, Effectiveness: 72%
+
+Correct: 5341, Total: 7274, Effectiveness: 73%
+
+Correct: 5297, Total: 7278, Effectiveness: 72%
+
+Correct: 5256, Total: 7275, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 28-percent:
+Correct: 5210, Total: 7179, Effectiveness: 72%
+
+Correct: 5186, Total: 7179, Effectiveness: 72%
+
+Correct: 5185, Total: 7176, Effectiveness: 72%
+
+Correct: 5195, Total: 7175, Effectiveness: 72%
+
+Correct: 5228, Total: 7181, Effectiveness: 72%
+
+Correct: 5257, Total: 7181, Effectiveness: 73%
+
+Correct: 5195, Total: 7166, Effectiveness: 72%
+
+Correct: 5143, Total: 7177, Effectiveness: 71%
+
+Correct: 5313, Total: 7176, Effectiveness: 74%
+
+Correct: 5186, Total: 7175, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 29-percent:
+Correct: 5116, Total: 7083, Effectiveness: 72%
+
+Correct: 5144, Total: 7076, Effectiveness: 72%
+
+Correct: 5091, Total: 7075, Effectiveness: 71%
+
+Correct: 5103, Total: 7075, Effectiveness: 72%
+
+Correct: 5073, Total: 7074, Effectiveness: 71%
+
+Correct: 5103, Total: 7080, Effectiveness: 72%
+
+Correct: 5178, Total: 7079, Effectiveness: 73%
+
+Correct: 5121, Total: 7074, Effectiveness: 72%
+
+Correct: 5177, Total: 7079, Effectiveness: 73%
+
+Correct: 5200, Total: 7076, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 30-percent:
+Correct: 5044, Total: 6977, Effectiveness: 72%
+
+Correct: 5010, Total: 6976, Effectiveness: 71%
+
+Correct: 5036, Total: 6976, Effectiveness: 72%
+
+Correct: 5149, Total: 6974, Effectiveness: 73%
+
+Correct: 4976, Total: 6975, Effectiveness: 71%
+
+Correct: 5099, Total: 6971, Effectiveness: 73%
+
+Correct: 5083, Total: 6982, Effectiveness: 72%
+
+Correct: 5047, Total: 6980, Effectiveness: 72%
+
+Correct: 5104, Total: 6982, Effectiveness: 73%
+
+Correct: 5085, Total: 6977, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 31-percent:
+Correct: 4993, Total: 6878, Effectiveness: 72%
+
+Correct: 5006, Total: 6872, Effectiveness: 72%
+
+Correct: 5006, Total: 6877, Effectiveness: 72%
+
+Correct: 4997, Total: 6874, Effectiveness: 72%
+
+Correct: 4965, Total: 6877, Effectiveness: 72%
+
+Correct: 5057, Total: 6877, Effectiveness: 73%
+
+Correct: 4940, Total: 6877, Effectiveness: 71%
+
+Correct: 4982, Total: 6869, Effectiveness: 72%
+
+Correct: 5050, Total: 6877, Effectiveness: 73%
+
+Correct: 5014, Total: 6870, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 32-percent:
+Correct: 4923, Total: 6778, Effectiveness: 72%
+
+Correct: 4972, Total: 6781, Effectiveness: 73%
+
+Correct: 4964, Total: 6782, Effectiveness: 73%
+
+Correct: 4881, Total: 6787, Effectiveness: 71%
+
+Correct: 4955, Total: 6770, Effectiveness: 73%
+
+Correct: 4901, Total: 6778, Effectiveness: 72%
+
+Correct: 4902, Total: 6778, Effectiveness: 72%
+
+Correct: 4945, Total: 6768, Effectiveness: 73%
+
+Correct: 4948, Total: 6780, Effectiveness: 72%
+
+Correct: 4948, Total: 6784, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 33-percent:
+Correct: 4898, Total: 6674, Effectiveness: 73%
+
+Correct: 4876, Total: 6678, Effectiveness: 73%
+
+Correct: 4837, Total: 6678, Effectiveness: 72%
+
+Correct: 4849, Total: 6670, Effectiveness: 72%
+
+Correct: 4854, Total: 6689, Effectiveness: 72%
+
+Correct: 4885, Total: 6677, Effectiveness: 73%
+
+Correct: 4790, Total: 6674, Effectiveness: 71%
+
+Correct: 4853, Total: 6680, Effectiveness: 72%
+
+Correct: 4895, Total: 6680, Effectiveness: 73%
+
+Correct: 4837, Total: 6682, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 34-percent:
+Correct: 4773, Total: 6569, Effectiveness: 72%
+
+Correct: 4817, Total: 6576, Effectiveness: 73%
+
+Correct: 4792, Total: 6579, Effectiveness: 72%
+
+Correct: 4821, Total: 6578, Effectiveness: 73%
+
+Correct: 4759, Total: 6571, Effectiveness: 72%
+
+Correct: 4772, Total: 6580, Effectiveness: 72%
+
+Correct: 4781, Total: 6574, Effectiveness: 72%
+
+Correct: 4783, Total: 6577, Effectiveness: 72%
+
+Correct: 4731, Total: 6565, Effectiveness: 72%
+
+Correct: 4715, Total: 6582, Effectiveness: 71%
+
+Naive bayes classification with random subsampling at 35-percent:
+Correct: 4729, Total: 6473, Effectiveness: 73%
+
+Correct: 4684, Total: 6482, Effectiveness: 72%
+
+Correct: 4688, Total: 6473, Effectiveness: 72%
+
+Correct: 4653, Total: 6473, Effectiveness: 71%
+
+Correct: 4736, Total: 6479, Effectiveness: 73%
+
+Correct: 4694, Total: 6475, Effectiveness: 72%
+
+Correct: 4700, Total: 6477, Effectiveness: 72%
+
+Correct: 4719, Total: 6475, Effectiveness: 72%
+
+Correct: 4685, Total: 6476, Effectiveness: 72%
+
+Correct: 4734, Total: 6476, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 36-percent:
+Correct: 4650, Total: 6379, Effectiveness: 72%
+
+Correct: 4697, Total: 6377, Effectiveness: 73%
+
+Correct: 4598, Total: 6374, Effectiveness: 72%
+
+Correct: 4621, Total: 6377, Effectiveness: 72%
+
+Correct: 4591, Total: 6367, Effectiveness: 72%
+
+Correct: 4648, Total: 6371, Effectiveness: 72%
+
+Correct: 4628, Total: 6379, Effectiveness: 72%
+
+Correct: 4691, Total: 6374, Effectiveness: 73%
+
+Correct: 4588, Total: 6367, Effectiveness: 72%
+
+Correct: 4613, Total: 6374, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 37-percent:
+Correct: 4537, Total: 6280, Effectiveness: 72%
+
+Correct: 4633, Total: 6272, Effectiveness: 73%
+
+Correct: 4566, Total: 6277, Effectiveness: 72%
+
+Correct: 4585, Total: 6278, Effectiveness: 73%
+
+Correct: 4571, Total: 6279, Effectiveness: 72%
+
+Correct: 4618, Total: 6273, Effectiveness: 73%
+
+Correct: 4585, Total: 6272, Effectiveness: 73%
+
+Correct: 4580, Total: 6283, Effectiveness: 72%
+
+Correct: 4634, Total: 6271, Effectiveness: 73%
+
+Correct: 4523, Total: 6279, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 38-percent:
+Correct: 4516, Total: 6176, Effectiveness: 73%
+
+Correct: 4435, Total: 6166, Effectiveness: 71%
+
+Correct: 4571, Total: 6171, Effectiveness: 74%
+
+Correct: 4505, Total: 6176, Effectiveness: 72%
+
+Correct: 4523, Total: 6170, Effectiveness: 73%
+
+Correct: 4484, Total: 6183, Effectiveness: 72%
+
+Correct: 4530, Total: 6183, Effectiveness: 73%
+
+Correct: 4506, Total: 6168, Effectiveness: 73%
+
+Correct: 4480, Total: 6182, Effectiveness: 72%
+
+Correct: 4563, Total: 6170, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 39-percent:
+Correct: 4408, Total: 6068, Effectiveness: 72%
+
+Correct: 4458, Total: 6075, Effectiveness: 73%
+
+Correct: 4428, Total: 6073, Effectiveness: 72%
+
+Correct: 4449, Total: 6070, Effectiveness: 73%
+
+Correct: 4443, Total: 6067, Effectiveness: 73%
+
+Correct: 4415, Total: 6073, Effectiveness: 72%
+
+Correct: 4451, Total: 6069, Effectiveness: 73%
+
+Correct: 4443, Total: 6072, Effectiveness: 73%
+
+Correct: 4463, Total: 6074, Effectiveness: 73%
+
+Correct: 4488, Total: 6069, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 40-percent:
+Correct: 4357, Total: 5975, Effectiveness: 72%
+
+Correct: 4382, Total: 5978, Effectiveness: 73%
+
+Correct: 4370, Total: 5976, Effectiveness: 73%
+
+Correct: 4329, Total: 5971, Effectiveness: 72%
+
+Correct: 4345, Total: 5980, Effectiveness: 72%
+
+Correct: 4375, Total: 5978, Effectiveness: 73%
+
+Correct: 4340, Total: 5974, Effectiveness: 72%
+
+Correct: 4337, Total: 5980, Effectiveness: 72%
+
+Correct: 4298, Total: 5974, Effectiveness: 71%
+
+Correct: 4347, Total: 5975, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 41-percent:
+Correct: 4273, Total: 5877, Effectiveness: 72%
+
+Correct: 4260, Total: 5873, Effectiveness: 72%
+
+Correct: 4286, Total: 5878, Effectiveness: 72%
+
+Correct: 4272, Total: 5877, Effectiveness: 72%
+
+Correct: 4274, Total: 5879, Effectiveness: 72%
+
+Correct: 4349, Total: 5876, Effectiveness: 74%
+
+Correct: 4321, Total: 5868, Effectiveness: 73%
+
+Correct: 4327, Total: 5870, Effectiveness: 73%
+
+Correct: 4319, Total: 5879, Effectiveness: 73%
+
+Correct: 4255, Total: 5866, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 42-percent:
+Correct: 4182, Total: 5773, Effectiveness: 72%
+
+Correct: 4266, Total: 5775, Effectiveness: 73%
+
+Correct: 4253, Total: 5768, Effectiveness: 73%
+
+Correct: 4238, Total: 5777, Effectiveness: 73%
+
+Correct: 4177, Total: 5772, Effectiveness: 72%
+
+Correct: 4159, Total: 5772, Effectiveness: 72%
+
+Correct: 4185, Total: 5771, Effectiveness: 72%
+
+Correct: 4187, Total: 5776, Effectiveness: 72%
+
+Correct: 4249, Total: 5771, Effectiveness: 73%
+
+Correct: 4201, Total: 5778, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 43-percent:
+Correct: 4102, Total: 5673, Effectiveness: 72%
+
+Correct: 4144, Total: 5666, Effectiveness: 73%
+
+Correct: 4156, Total: 5668, Effectiveness: 73%
+
+Correct: 4155, Total: 5680, Effectiveness: 73%
+
+Correct: 4185, Total: 5678, Effectiveness: 73%
+
+Correct: 4146, Total: 5675, Effectiveness: 73%
+
+Correct: 4169, Total: 5675, Effectiveness: 73%
+
+Correct: 4129, Total: 5674, Effectiveness: 72%
+
+Correct: 4196, Total: 5677, Effectiveness: 73%
+
+Correct: 4170, Total: 5681, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 44-percent:
+Correct: 4116, Total: 5575, Effectiveness: 73%
+
+Correct: 4096, Total: 5577, Effectiveness: 73%
+
+Correct: 4069, Total: 5578, Effectiveness: 72%
+
+Correct: 4075, Total: 5578, Effectiveness: 73%
+
+Correct: 4103, Total: 5576, Effectiveness: 73%
+
+Correct: 4106, Total: 5570, Effectiveness: 73%
+
+Correct: 4035, Total: 5572, Effectiveness: 72%
+
+Correct: 4063, Total: 5572, Effectiveness: 72%
+
+Correct: 4064, Total: 5574, Effectiveness: 72%
+
+Correct: 4099, Total: 5575, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 45-percent:
+Correct: 4012, Total: 5479, Effectiveness: 73%
+
+Correct: 4002, Total: 5479, Effectiveness: 73%
+
+Correct: 4010, Total: 5474, Effectiveness: 73%
+
+Correct: 3976, Total: 5467, Effectiveness: 72%
+
+Correct: 4012, Total: 5472, Effectiveness: 73%
+
+Correct: 3976, Total: 5473, Effectiveness: 72%
+
+Correct: 4015, Total: 5473, Effectiveness: 73%
+
+Correct: 3983, Total: 5478, Effectiveness: 72%
+
+Correct: 3964, Total: 5476, Effectiveness: 72%
+
+Correct: 3986, Total: 5472, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 46-percent:
+Correct: 3968, Total: 5380, Effectiveness: 73%
+
+Correct: 3948, Total: 5374, Effectiveness: 73%
+
+Correct: 3903, Total: 5370, Effectiveness: 72%
+
+Correct: 3916, Total: 5372, Effectiveness: 72%
+
+Correct: 3936, Total: 5371, Effectiveness: 73%
+
+Correct: 3945, Total: 5377, Effectiveness: 73%
+
+Correct: 4003, Total: 5372, Effectiveness: 74%
+
+Correct: 3967, Total: 5374, Effectiveness: 73%
+
+Correct: 3926, Total: 5373, Effectiveness: 73%
+
+Correct: 3943, Total: 5367, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 47-percent:
+Correct: 3905, Total: 5278, Effectiveness: 73%
+
+Correct: 3845, Total: 5269, Effectiveness: 72%
+
+Correct: 3868, Total: 5269, Effectiveness: 73%
+
+Correct: 3809, Total: 5275, Effectiveness: 72%
+
+Correct: 3917, Total: 5281, Effectiveness: 74%
+
+Correct: 3812, Total: 5272, Effectiveness: 72%
+
+Correct: 3904, Total: 5275, Effectiveness: 74%
+
+Correct: 3885, Total: 5272, Effectiveness: 73%
+
+Correct: 3849, Total: 5270, Effectiveness: 73%
+
+Correct: 3825, Total: 5274, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 48-percent:
+Correct: 3827, Total: 5174, Effectiveness: 73%
+
+Correct: 3773, Total: 5175, Effectiveness: 72%
+
+Correct: 3781, Total: 5174, Effectiveness: 73%
+
+Correct: 3868, Total: 5181, Effectiveness: 74%
+
+Correct: 3814, Total: 5176, Effectiveness: 73%
+
+Correct: 3824, Total: 5170, Effectiveness: 73%
+
+Correct: 3802, Total: 5175, Effectiveness: 73%
+
+Correct: 3787, Total: 5180, Effectiveness: 73%
+
+Correct: 3817, Total: 5172, Effectiveness: 73%
+
+Correct: 3800, Total: 5170, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 49-percent:
+Correct: 3711, Total: 5070, Effectiveness: 73%
+
+Correct: 3715, Total: 5072, Effectiveness: 73%
+
+Correct: 3753, Total: 5070, Effectiveness: 74%
+
+Correct: 3758, Total: 5078, Effectiveness: 74%
+
+Correct: 3748, Total: 5072, Effectiveness: 73%
+
+Correct: 3736, Total: 5066, Effectiveness: 73%
+
+Correct: 3705, Total: 5078, Effectiveness: 72%
+
+Correct: 3688, Total: 5070, Effectiveness: 72%
+
+Correct: 3756, Total: 5075, Effectiveness: 74%
+
+Correct: 3717, Total: 5075, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 50-percent:
+Correct: 3671, Total: 4970, Effectiveness: 73%
+
+Correct: 3648, Total: 4972, Effectiveness: 73%
+
+Correct: 3710, Total: 4979, Effectiveness: 74%
+
+Correct: 3690, Total: 4969, Effectiveness: 74%
+
+Correct: 3696, Total: 4970, Effectiveness: 74%
+
+Correct: 3614, Total: 4973, Effectiveness: 72%
+
+Correct: 3651, Total: 4971, Effectiveness: 73%
+
+Correct: 3671, Total: 4969, Effectiveness: 73%
+
+Correct: 3629, Total: 4974, Effectiveness: 72%
+
+Correct: 3658, Total: 4976, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 51-percent:
+Correct: 3567, Total: 4874, Effectiveness: 73%
+
+Correct: 3639, Total: 4877, Effectiveness: 74%
+
+Correct: 3598, Total: 4869, Effectiveness: 73%
+
+Correct: 3577, Total: 4872, Effectiveness: 73%
+
+Correct: 3585, Total: 4872, Effectiveness: 73%
+
+Correct: 3601, Total: 4871, Effectiveness: 73%
+
+Correct: 3605, Total: 4879, Effectiveness: 73%
+
+Correct: 3560, Total: 4871, Effectiveness: 73%
+
+Correct: 3627, Total: 4874, Effectiveness: 74%
+
+Correct: 3604, Total: 4874, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 52-percent:
+Correct: 3515, Total: 4780, Effectiveness: 73%
+
+Correct: 3489, Total: 4775, Effectiveness: 73%
+
+Correct: 3504, Total: 4776, Effectiveness: 73%
+
+Correct: 3505, Total: 4776, Effectiveness: 73%
+
+Correct: 3514, Total: 4776, Effectiveness: 73%
+
+Correct: 3530, Total: 4773, Effectiveness: 73%
+
+Correct: 3450, Total: 4770, Effectiveness: 72%
+
+Correct: 3552, Total: 4772, Effectiveness: 74%
+
+Correct: 3538, Total: 4777, Effectiveness: 74%
+
+Correct: 3515, Total: 4776, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 53-percent:
+Correct: 3473, Total: 4673, Effectiveness: 74%
+
+Correct: 3484, Total: 4676, Effectiveness: 74%
+
+Correct: 3418, Total: 4676, Effectiveness: 73%
+
+Correct: 3420, Total: 4678, Effectiveness: 73%
+
+Correct: 3435, Total: 4677, Effectiveness: 73%
+
+Correct: 3467, Total: 4666, Effectiveness: 74%
+
+Correct: 3426, Total: 4682, Effectiveness: 73%
+
+Correct: 3431, Total: 4676, Effectiveness: 73%
+
+Correct: 3455, Total: 4673, Effectiveness: 73%
+
+Correct: 3460, Total: 4673, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 54-percent:
+Correct: 3337, Total: 4571, Effectiveness: 73%
+
+Correct: 3359, Total: 4571, Effectiveness: 73%
+
+Correct: 3362, Total: 4567, Effectiveness: 73%
+
+Correct: 3353, Total: 4573, Effectiveness: 73%
+
+Correct: 3378, Total: 4575, Effectiveness: 73%
+
+Correct: 3289, Total: 4572, Effectiveness: 71%
+
+Correct: 3326, Total: 4576, Effectiveness: 72%
+
+Correct: 3366, Total: 4577, Effectiveness: 73%
+
+Correct: 3320, Total: 4576, Effectiveness: 72%
+
+Correct: 3402, Total: 4570, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 55-percent:
+Correct: 3273, Total: 4480, Effectiveness: 73%
+
+Correct: 3275, Total: 4469, Effectiveness: 73%
+
+Correct: 3279, Total: 4469, Effectiveness: 73%
+
+Correct: 3249, Total: 4477, Effectiveness: 72%
+
+Correct: 3301, Total: 4473, Effectiveness: 73%
+
+Correct: 3279, Total: 4471, Effectiveness: 73%
+
+Correct: 3282, Total: 4472, Effectiveness: 73%
+
+Correct: 3298, Total: 4473, Effectiveness: 73%
+
+Correct: 3300, Total: 4471, Effectiveness: 73%
+
+Correct: 3312, Total: 4479, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 56-percent:
+Correct: 3254, Total: 4377, Effectiveness: 74%
+
+Correct: 3248, Total: 4378, Effectiveness: 74%
+
+Correct: 3273, Total: 4375, Effectiveness: 74%
+
+Correct: 3225, Total: 4375, Effectiveness: 73%
+
+Correct: 3251, Total: 4376, Effectiveness: 74%
+
+Correct: 3224, Total: 4374, Effectiveness: 73%
+
+Correct: 3232, Total: 4370, Effectiveness: 73%
+
+Correct: 3260, Total: 4375, Effectiveness: 74%
+
+Correct: 3227, Total: 4379, Effectiveness: 73%
+
+Correct: 3248, Total: 4375, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 57-percent:
+Correct: 3106, Total: 4275, Effectiveness: 72%
+
+Correct: 3121, Total: 4270, Effectiveness: 73%
+
+Correct: 3122, Total: 4272, Effectiveness: 73%
+
+Correct: 3185, Total: 4277, Effectiveness: 74%
+
+Correct: 3156, Total: 4271, Effectiveness: 73%
+
+Correct: 3165, Total: 4273, Effectiveness: 74%
+
+Correct: 3150, Total: 4274, Effectiveness: 73%
+
+Correct: 3186, Total: 4280, Effectiveness: 74%
+
+Correct: 3105, Total: 4273, Effectiveness: 72%
+
+Correct: 3121, Total: 4272, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 58-percent:
+Correct: 3091, Total: 4174, Effectiveness: 74%
+
+Correct: 3043, Total: 4173, Effectiveness: 72%
+
+Correct: 3070, Total: 4175, Effectiveness: 73%
+
+Correct: 3106, Total: 4176, Effectiveness: 74%
+
+Correct: 3088, Total: 4175, Effectiveness: 73%
+
+Correct: 3031, Total: 4173, Effectiveness: 72%
+
+Correct: 3143, Total: 4182, Effectiveness: 75%
+
+Correct: 3051, Total: 4175, Effectiveness: 73%
+
+Correct: 3071, Total: 4169, Effectiveness: 73%
+
+Correct: 3062, Total: 4168, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 59-percent:
+Correct: 2963, Total: 4072, Effectiveness: 72%
+
+Correct: 2999, Total: 4076, Effectiveness: 73%
+
+Correct: 2978, Total: 4078, Effectiveness: 73%
+
+Correct: 2985, Total: 4071, Effectiveness: 73%
+
+Correct: 3001, Total: 4078, Effectiveness: 73%
+
+Correct: 2963, Total: 4076, Effectiveness: 72%
+
+Correct: 3033, Total: 4072, Effectiveness: 74%
+
+Correct: 2972, Total: 4074, Effectiveness: 72%
+
+Correct: 2993, Total: 4081, Effectiveness: 73%
+
+Correct: 3000, Total: 4080, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 60-percent:
+Correct: 2935, Total: 3979, Effectiveness: 73%
+
+Correct: 2947, Total: 3978, Effectiveness: 74%
+
+Correct: 2957, Total: 3976, Effectiveness: 74%
+
+Correct: 2945, Total: 3974, Effectiveness: 74%
+
+Correct: 2935, Total: 3969, Effectiveness: 73%
+
+Correct: 2956, Total: 3976, Effectiveness: 74%
+
+Correct: 2940, Total: 3976, Effectiveness: 73%
+
+Correct: 2949, Total: 3981, Effectiveness: 74%
+
+Correct: 2920, Total: 3974, Effectiveness: 73%
+
+Correct: 2959, Total: 3980, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 61-percent:
+Correct: 2879, Total: 3875, Effectiveness: 74%
+
+Correct: 2918, Total: 3879, Effectiveness: 75%
+
+Correct: 2849, Total: 3876, Effectiveness: 73%
+
+Correct: 2861, Total: 3880, Effectiveness: 73%
+
+Correct: 2863, Total: 3872, Effectiveness: 73%
+
+Correct: 2866, Total: 3872, Effectiveness: 74%
+
+Correct: 2852, Total: 3879, Effectiveness: 73%
+
+Correct: 2882, Total: 3882, Effectiveness: 74%
+
+Correct: 2844, Total: 3872, Effectiveness: 73%
+
+Correct: 2839, Total: 3875, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 62-percent:
+Correct: 2747, Total: 3778, Effectiveness: 72%
+
+Correct: 2826, Total: 3776, Effectiveness: 74%
+
+Correct: 2825, Total: 3783, Effectiveness: 74%
+
+Correct: 2750, Total: 3778, Effectiveness: 72%
+
+Correct: 2828, Total: 3778, Effectiveness: 74%
+
+Correct: 2729, Total: 3781, Effectiveness: 72%
+
+Correct: 2800, Total: 3771, Effectiveness: 74%
+
+Correct: 2792, Total: 3776, Effectiveness: 73%
+
+Correct: 2740, Total: 3782, Effectiveness: 72%
+
+Correct: 2802, Total: 3777, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 63-percent:
+Correct: 2708, Total: 3675, Effectiveness: 73%
+
+Correct: 2712, Total: 3671, Effectiveness: 73%
+
+Correct: 2722, Total: 3677, Effectiveness: 74%
+
+Correct: 2719, Total: 3677, Effectiveness: 73%
+
+Correct: 2731, Total: 3675, Effectiveness: 74%
+
+Correct: 2671, Total: 3669, Effectiveness: 72%
+
+Correct: 2709, Total: 3679, Effectiveness: 73%
+
+Correct: 2705, Total: 3672, Effectiveness: 73%
+
+Correct: 2698, Total: 3684, Effectiveness: 73%
+
+Correct: 2687, Total: 3671, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 64-percent:
+Correct: 2631, Total: 3576, Effectiveness: 73%
+
+Correct: 2655, Total: 3581, Effectiveness: 74%
+
+Correct: 2662, Total: 3569, Effectiveness: 74%
+
+Correct: 2633, Total: 3576, Effectiveness: 73%
+
+Correct: 2638, Total: 3577, Effectiveness: 73%
+
+Correct: 2625, Total: 3574, Effectiveness: 73%
+
+Correct: 2638, Total: 3576, Effectiveness: 73%
+
+Correct: 2616, Total: 3574, Effectiveness: 73%
+
+Correct: 2701, Total: 3581, Effectiveness: 75%
+
+Correct: 2653, Total: 3574, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 65-percent:
+Correct: 2565, Total: 3470, Effectiveness: 73%
+
+Correct: 2556, Total: 3477, Effectiveness: 73%
+
+Correct: 2608, Total: 3476, Effectiveness: 75%
+
+Correct: 2560, Total: 3479, Effectiveness: 73%
+
+Correct: 2599, Total: 3478, Effectiveness: 74%
+
+Correct: 2556, Total: 3482, Effectiveness: 73%
+
+Correct: 2590, Total: 3472, Effectiveness: 74%
+
+Correct: 2602, Total: 3482, Effectiveness: 74%
+
+Correct: 2581, Total: 3478, Effectiveness: 74%
+
+Correct: 2605, Total: 3479, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 66-percent:
+Correct: 2530, Total: 3379, Effectiveness: 74%
+
+Correct: 2525, Total: 3381, Effectiveness: 74%
+
+Correct: 2491, Total: 3378, Effectiveness: 73%
+
+Correct: 2490, Total: 3374, Effectiveness: 73%
+
+Correct: 2504, Total: 3373, Effectiveness: 74%
+
+Correct: 2523, Total: 3378, Effectiveness: 74%
+
+Correct: 2512, Total: 3382, Effectiveness: 74%
+
+Correct: 2498, Total: 3376, Effectiveness: 73%
+
+Correct: 2514, Total: 3379, Effectiveness: 74%
+
+Correct: 2495, Total: 3382, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 67-percent:
+Correct: 2418, Total: 3281, Effectiveness: 73%
+
+Correct: 2431, Total: 3269, Effectiveness: 74%
+
+Correct: 2412, Total: 3274, Effectiveness: 73%
+
+Correct: 2442, Total: 3273, Effectiveness: 74%
+
+Correct: 2424, Total: 3274, Effectiveness: 74%
+
+Correct: 2437, Total: 3281, Effectiveness: 74%
+
+Correct: 2446, Total: 3272, Effectiveness: 74%
+
+Correct: 2438, Total: 3277, Effectiveness: 74%
+
+Correct: 2410, Total: 3273, Effectiveness: 73%
+
+Correct: 2437, Total: 3279, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 68-percent:
+Correct: 2358, Total: 3180, Effectiveness: 74%
+
+Correct: 2368, Total: 3173, Effectiveness: 74%
+
+Correct: 2408, Total: 3179, Effectiveness: 75%
+
+Correct: 2337, Total: 3175, Effectiveness: 73%
+
+Correct: 2332, Total: 3181, Effectiveness: 73%
+
+Correct: 2361, Total: 3184, Effectiveness: 74%
+
+Correct: 2327, Total: 3179, Effectiveness: 73%
+
+Correct: 2377, Total: 3180, Effectiveness: 74%
+
+Correct: 2361, Total: 3175, Effectiveness: 74%
+
+Correct: 2351, Total: 3177, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 69-percent:
+Correct: 2265, Total: 3079, Effectiveness: 73%
+
+Correct: 2220, Total: 3075, Effectiveness: 72%
+
+Correct: 2287, Total: 3084, Effectiveness: 74%
+
+Correct: 2287, Total: 3082, Effectiveness: 74%
+
+Correct: 2295, Total: 3073, Effectiveness: 74%
+
+Correct: 2303, Total: 3077, Effectiveness: 74%
+
+Correct: 2284, Total: 3078, Effectiveness: 74%
+
+Correct: 2254, Total: 3078, Effectiveness: 73%
+
+Correct: 2284, Total: 3078, Effectiveness: 74%
+
+Correct: 2250, Total: 3086, Effectiveness: 72%
+
+Naive bayes classification with random subsampling at 70-percent:
+Correct: 2207, Total: 2979, Effectiveness: 74%
+
+Correct: 2229, Total: 2983, Effectiveness: 74%
+
+Correct: 2196, Total: 2969, Effectiveness: 73%
+
+Correct: 2203, Total: 2984, Effectiveness: 73%
+
+Correct: 2181, Total: 2979, Effectiveness: 73%
+
+Correct: 2227, Total: 2978, Effectiveness: 74%
+
+Correct: 2218, Total: 2980, Effectiveness: 74%
+
+Correct: 2202, Total: 2980, Effectiveness: 73%
+
+Correct: 2189, Total: 2978, Effectiveness: 73%
+
+Correct: 2202, Total: 2976, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 71-percent:
+Correct: 2112, Total: 2878, Effectiveness: 73%
+
+Correct: 2120, Total: 2881, Effectiveness: 73%
+
+Correct: 2127, Total: 2880, Effectiveness: 73%
+
+Correct: 2151, Total: 2886, Effectiveness: 74%
+
+Correct: 2143, Total: 2879, Effectiveness: 74%
+
+Correct: 2129, Total: 2882, Effectiveness: 73%
+
+Correct: 2090, Total: 2885, Effectiveness: 72%
+
+Correct: 2121, Total: 2873, Effectiveness: 73%
+
+Correct: 2169, Total: 2881, Effectiveness: 75%
+
+Correct: 2169, Total: 2875, Effectiveness: 75%
+
+Naive bayes classification with random subsampling at 72-percent:
+Correct: 2040, Total: 2781, Effectiveness: 73%
+
+Correct: 2051, Total: 2777, Effectiveness: 73%
+
+Correct: 2069, Total: 2780, Effectiveness: 74%
+
+Correct: 2057, Total: 2780, Effectiveness: 73%
+
+Correct: 2074, Total: 2778, Effectiveness: 74%
+
+Correct: 2047, Total: 2778, Effectiveness: 73%
+
+Correct: 2050, Total: 2776, Effectiveness: 73%
+
+Correct: 2054, Total: 2777, Effectiveness: 73%
+
+Correct: 2054, Total: 2781, Effectiveness: 73%
+
+Correct: 2032, Total: 2777, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 73-percent:
+Correct: 2014, Total: 2679, Effectiveness: 75%
+
+Correct: 1993, Total: 2683, Effectiveness: 74%
+
+Correct: 1969, Total: 2686, Effectiveness: 73%
+
+Correct: 1991, Total: 2672, Effectiveness: 74%
+
+Correct: 1963, Total: 2684, Effectiveness: 73%
+
+Correct: 2002, Total: 2685, Effectiveness: 74%
+
+Correct: 1976, Total: 2682, Effectiveness: 73%
+
+Correct: 2026, Total: 2677, Effectiveness: 75%
+
+Correct: 2019, Total: 2679, Effectiveness: 75%
+
+Correct: 1982, Total: 2684, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 74-percent:
+Correct: 1886, Total: 2578, Effectiveness: 73%
+
+Correct: 1931, Total: 2579, Effectiveness: 74%
+
+Correct: 1950, Total: 2578, Effectiveness: 75%
+
+Correct: 1933, Total: 2579, Effectiveness: 74%
+
+Correct: 1899, Total: 2582, Effectiveness: 73%
+
+Correct: 1886, Total: 2577, Effectiveness: 73%
+
+Correct: 1897, Total: 2586, Effectiveness: 73%
+
+Correct: 1907, Total: 2576, Effectiveness: 74%
+
+Correct: 1926, Total: 2578, Effectiveness: 74%
+
+Correct: 1908, Total: 2581, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 75-percent:
+Correct: 1851, Total: 2481, Effectiveness: 74%
+
+Correct: 1812, Total: 2484, Effectiveness: 72%
+
+Correct: 1826, Total: 2484, Effectiveness: 73%
+
+Correct: 1846, Total: 2487, Effectiveness: 74%
+
+Correct: 1813, Total: 2485, Effectiveness: 72%
+
+Correct: 1876, Total: 2479, Effectiveness: 75%
+
+Correct: 1889, Total: 2486, Effectiveness: 75%
+
+Correct: 1852, Total: 2485, Effectiveness: 74%
+
+Correct: 1807, Total: 2476, Effectiveness: 72%
+
+Correct: 1824, Total: 2477, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 76-percent:
+Correct: 1773, Total: 2378, Effectiveness: 74%
+
+Correct: 1763, Total: 2380, Effectiveness: 74%
+
+Correct: 1749, Total: 2379, Effectiveness: 73%
+
+Correct: 1766, Total: 2380, Effectiveness: 74%
+
+Correct: 1776, Total: 2373, Effectiveness: 74%
+
+Correct: 1772, Total: 2385, Effectiveness: 74%
+
+Correct: 1744, Total: 2382, Effectiveness: 73%
+
+Correct: 1773, Total: 2377, Effectiveness: 74%
+
+Correct: 1793, Total: 2384, Effectiveness: 75%
+
+Correct: 1766, Total: 2383, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 77-percent:
+Correct: 1681, Total: 2280, Effectiveness: 73%
+
+Correct: 1671, Total: 2281, Effectiveness: 73%
+
+Correct: 1672, Total: 2282, Effectiveness: 73%
+
+Correct: 1722, Total: 2283, Effectiveness: 75%
+
+Correct: 1695, Total: 2282, Effectiveness: 74%
+
+Correct: 1670, Total: 2283, Effectiveness: 73%
+
+Correct: 1672, Total: 2284, Effectiveness: 73%
+
+Correct: 1687, Total: 2280, Effectiveness: 73%
+
+Correct: 1673, Total: 2280, Effectiveness: 73%
+
+Correct: 1683, Total: 2286, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 78-percent:
+Correct: 1605, Total: 2186, Effectiveness: 73%
+
+Correct: 1614, Total: 2183, Effectiveness: 73%
+
+Correct: 1637, Total: 2178, Effectiveness: 75%
+
+Correct: 1634, Total: 2186, Effectiveness: 74%
+
+Correct: 1646, Total: 2186, Effectiveness: 75%
+
+Correct: 1632, Total: 2179, Effectiveness: 74%
+
+Correct: 1615, Total: 2186, Effectiveness: 73%
+
+Correct: 1657, Total: 2184, Effectiveness: 75%
+
+Correct: 1649, Total: 2181, Effectiveness: 75%
+
+Correct: 1619, Total: 2178, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 79-percent:
+Correct: 1531, Total: 2084, Effectiveness: 73%
+
+Correct: 1537, Total: 2086, Effectiveness: 73%
+
+Correct: 1505, Total: 2089, Effectiveness: 72%
+
+Correct: 1569, Total: 2087, Effectiveness: 75%
+
+Correct: 1561, Total: 2085, Effectiveness: 74%
+
+Correct: 1545, Total: 2078, Effectiveness: 74%
+
+Correct: 1519, Total: 2087, Effectiveness: 72%
+
+Correct: 1527, Total: 2079, Effectiveness: 73%
+
+Correct: 1528, Total: 2078, Effectiveness: 73%
+
+Correct: 1555, Total: 2088, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 80-percent:
+Correct: 1476, Total: 1986, Effectiveness: 74%
+
+Correct: 1465, Total: 1982, Effectiveness: 73%
+
+Correct: 1499, Total: 1984, Effectiveness: 75%
+
+Correct: 1454, Total: 1984, Effectiveness: 73%
+
+Correct: 1464, Total: 1977, Effectiveness: 74%
+
+Correct: 1477, Total: 1987, Effectiveness: 74%
+
+Correct: 1506, Total: 1985, Effectiveness: 75%
+
+Correct: 1447, Total: 1978, Effectiveness: 73%
+
+Correct: 1459, Total: 1983, Effectiveness: 73%
+
+Correct: 1473, Total: 1985, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 81-percent:
+Correct: 1419, Total: 1887, Effectiveness: 75%
+
+Correct: 1391, Total: 1888, Effectiveness: 73%
+
+Correct: 1400, Total: 1892, Effectiveness: 73%
+
+Correct: 1425, Total: 1889, Effectiveness: 75%
+
+Correct: 1373, Total: 1880, Effectiveness: 73%
+
+Correct: 1410, Total: 1888, Effectiveness: 74%
+
+Correct: 1416, Total: 1886, Effectiveness: 75%
+
+Correct: 1415, Total: 1883, Effectiveness: 75%
+
+Correct: 1397, Total: 1885, Effectiveness: 74%
+
+Correct: 1401, Total: 1891, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 82-percent:
+Correct: 1349, Total: 1789, Effectiveness: 75%
+
+Correct: 1321, Total: 1793, Effectiveness: 73%
+
+Correct: 1331, Total: 1787, Effectiveness: 74%
+
+Correct: 1330, Total: 1784, Effectiveness: 74%
+
+Correct: 1288, Total: 1783, Effectiveness: 72%
+
+Correct: 1330, Total: 1787, Effectiveness: 74%
+
+Correct: 1318, Total: 1785, Effectiveness: 73%
+
+Correct: 1305, Total: 1777, Effectiveness: 73%
+
+Correct: 1325, Total: 1783, Effectiveness: 74%
+
+Correct: 1331, Total: 1787, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 83-percent:
+Correct: 1244, Total: 1688, Effectiveness: 73%
+
+Correct: 1242, Total: 1686, Effectiveness: 73%
+
+Correct: 1265, Total: 1688, Effectiveness: 74%
+
+Correct: 1255, Total: 1691, Effectiveness: 74%
+
+Correct: 1231, Total: 1690, Effectiveness: 72%
+
+Correct: 1242, Total: 1688, Effectiveness: 73%
+
+Correct: 1257, Total: 1686, Effectiveness: 74%
+
+Correct: 1267, Total: 1684, Effectiveness: 75%
+
+Correct: 1247, Total: 1688, Effectiveness: 73%
+
+Correct: 1271, Total: 1686, Effectiveness: 75%
+
+Naive bayes classification with random subsampling at 84-percent:
+Correct: 1173, Total: 1581, Effectiveness: 74%
+
+Correct: 1204, Total: 1587, Effectiveness: 75%
+
+Correct: 1172, Total: 1592, Effectiveness: 73%
+
+Correct: 1173, Total: 1585, Effectiveness: 74%
+
+Correct: 1164, Total: 1581, Effectiveness: 73%
+
+Correct: 1153, Total: 1587, Effectiveness: 72%
+
+Correct: 1174, Total: 1584, Effectiveness: 74%
+
+Correct: 1167, Total: 1587, Effectiveness: 73%
+
+Correct: 1213, Total: 1585, Effectiveness: 76%
+
+Correct: 1195, Total: 1588, Effectiveness: 75%
+
+Naive bayes classification with random subsampling at 85-percent:
+Correct: 1123, Total: 1483, Effectiveness: 75%
+
+Correct: 1119, Total: 1485, Effectiveness: 75%
+
+Correct: 1112, Total: 1489, Effectiveness: 74%
+
+Correct: 1103, Total: 1485, Effectiveness: 74%
+
+Correct: 1109, Total: 1486, Effectiveness: 74%
+
+Correct: 1121, Total: 1489, Effectiveness: 75%
+
+Correct: 1093, Total: 1491, Effectiveness: 73%
+
+Correct: 1096, Total: 1483, Effectiveness: 73%
+
+Correct: 1091, Total: 1487, Effectiveness: 73%
+
+Correct: 1106, Total: 1482, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 86-percent:
+Correct: 1015, Total: 1391, Effectiveness: 72%
+
+Correct: 1021, Total: 1393, Effectiveness: 73%
+
+Correct: 1015, Total: 1394, Effectiveness: 72%
+
+Correct: 1034, Total: 1388, Effectiveness: 74%
+
+Correct: 1035, Total: 1387, Effectiveness: 74%
+
+Correct: 1011, Total: 1384, Effectiveness: 73%
+
+Correct: 1009, Total: 1390, Effectiveness: 72%
+
+Correct: 1013, Total: 1387, Effectiveness: 73%
+
+Correct: 1002, Total: 1388, Effectiveness: 72%
+
+Correct: 1017, Total: 1388, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 87-percent:
+Correct: 956, Total: 1288, Effectiveness: 74%
+
+Correct: 962, Total: 1288, Effectiveness: 74%
+
+Correct: 991, Total: 1292, Effectiveness: 76%
+
+Correct: 934, Total: 1288, Effectiveness: 72%
+
+Correct: 970, Total: 1292, Effectiveness: 75%
+
+Correct: 976, Total: 1286, Effectiveness: 75%
+
+Correct: 950, Total: 1289, Effectiveness: 73%
+
+Correct: 952, Total: 1288, Effectiveness: 73%
+
+Correct: 962, Total: 1295, Effectiveness: 74%
+
+Correct: 963, Total: 1290, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 88-percent:
+Correct: 901, Total: 1187, Effectiveness: 75%
+
+Correct: 917, Total: 1186, Effectiveness: 77%
+
+Correct: 890, Total: 1193, Effectiveness: 74%
+
+Correct: 884, Total: 1186, Effectiveness: 74%
+
+Correct: 886, Total: 1192, Effectiveness: 74%
+
+Correct: 859, Total: 1191, Effectiveness: 72%
+
+Correct: 873, Total: 1187, Effectiveness: 73%
+
+Correct: 874, Total: 1186, Effectiveness: 73%
+
+Correct: 865, Total: 1187, Effectiveness: 72%
+
+Correct: 889, Total: 1191, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 89-percent:
+Correct: 814, Total: 1095, Effectiveness: 74%
+
+Correct: 813, Total: 1095, Effectiveness: 74%
+
+Correct: 834, Total: 1097, Effectiveness: 76%
+
+Correct: 807, Total: 1092, Effectiveness: 73%
+
+Correct: 807, Total: 1091, Effectiveness: 73%
+
+Correct: 820, Total: 1090, Effectiveness: 75%
+
+Correct: 804, Total: 1088, Effectiveness: 73%
+
+Correct: 779, Total: 1089, Effectiveness: 71%
+
+Correct: 839, Total: 1087, Effectiveness: 77%
+
+Correct: 837, Total: 1086, Effectiveness: 77%
+
+Naive bayes classification with random subsampling at 90-percent:
+Correct: 768, Total: 991, Effectiveness: 77%
+
+Correct: 737, Total: 991, Effectiveness: 74%
+
+Correct: 761, Total: 995, Effectiveness: 76%
+
+Correct: 740, Total: 990, Effectiveness: 74%
+
+Correct: 743, Total: 991, Effectiveness: 74%
+
+Correct: 757, Total: 990, Effectiveness: 76%
+
+Correct: 726, Total: 988, Effectiveness: 73%
+
+Correct: 741, Total: 990, Effectiveness: 74%
+
+Correct: 734, Total: 991, Effectiveness: 74%
+
+Correct: 741, Total: 992, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 91-percent:
+Correct: 659, Total: 886, Effectiveness: 74%
+
+Correct: 665, Total: 893, Effectiveness: 74%
+
+Correct: 648, Total: 890, Effectiveness: 72%
+
+Correct: 672, Total: 895, Effectiveness: 75%
+
+Correct: 638, Total: 892, Effectiveness: 71%
+
+Correct: 667, Total: 894, Effectiveness: 74%
+
+Correct: 648, Total: 894, Effectiveness: 72%
+
+Correct: 646, Total: 889, Effectiveness: 72%
+
+Correct: 682, Total: 890, Effectiveness: 76%
+
+Correct: 676, Total: 894, Effectiveness: 75%
+
+Naive bayes classification with random subsampling at 92-percent:
+Correct: 607, Total: 795, Effectiveness: 76%
+
+Correct: 597, Total: 793, Effectiveness: 75%
+
+Correct: 592, Total: 794, Effectiveness: 74%
+
+Correct: 606, Total: 794, Effectiveness: 76%
+
+Correct: 585, Total: 790, Effectiveness: 74%
+
+Correct: 601, Total: 791, Effectiveness: 75%
+
+Correct: 592, Total: 791, Effectiveness: 74%
+
+Correct: 600, Total: 794, Effectiveness: 75%
+
+Correct: 609, Total: 794, Effectiveness: 76%
+
+Correct: 603, Total: 798, Effectiveness: 75%
+
+Naive bayes classification with random subsampling at 93-percent:
+Correct: 538, Total: 696, Effectiveness: 77%
+
+Correct: 531, Total: 695, Effectiveness: 76%
+
+Correct: 519, Total: 694, Effectiveness: 74%
+
+Correct: 528, Total: 692, Effectiveness: 76%
+
+Correct: 511, Total: 696, Effectiveness: 73%
+
+Correct: 535, Total: 691, Effectiveness: 77%
+
+Correct: 516, Total: 693, Effectiveness: 74%
+
+Correct: 522, Total: 691, Effectiveness: 75%
+
+Correct: 533, Total: 695, Effectiveness: 76%
+
+Correct: 523, Total: 694, Effectiveness: 75%
+
+Naive bayes classification with random subsampling at 94-percent:
+Correct: 441, Total: 597, Effectiveness: 73%
+
+Correct: 433, Total: 593, Effectiveness: 73%
+
+Correct: 442, Total: 594, Effectiveness: 74%
+
+Correct: 446, Total: 593, Effectiveness: 75%
+
+Correct: 458, Total: 594, Effectiveness: 77%
+
+Correct: 459, Total: 596, Effectiveness: 77%
+
+Correct: 429, Total: 591, Effectiveness: 72%
+
+Correct: 439, Total: 595, Effectiveness: 73%
+
+Correct: 438, Total: 596, Effectiveness: 73%
+
+Correct: 444, Total: 596, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 95-percent:
+Correct: 361, Total: 491, Effectiveness: 73%
+
+Correct: 356, Total: 494, Effectiveness: 72%
+
+Correct: 385, Total: 494, Effectiveness: 77%
+
+Correct: 387, Total: 496, Effectiveness: 78%
+
+Correct: 387, Total: 497, Effectiveness: 77%
+
+Correct: 369, Total: 494, Effectiveness: 74%
+
+Correct: 375, Total: 494, Effectiveness: 75%
+
+Correct: 371, Total: 495, Effectiveness: 74%
+
+Correct: 364, Total: 495, Effectiveness: 73%
+
+Correct: 367, Total: 497, Effectiveness: 73%
+
+Naive bayes classification with random subsampling at 96-percent:
+Correct: 308, Total: 397, Effectiveness: 77%
+
+Correct: 284, Total: 396, Effectiveness: 71%
+
+Correct: 300, Total: 398, Effectiveness: 75%
+
+Correct: 317, Total: 397, Effectiveness: 79%
+
+Correct: 297, Total: 397, Effectiveness: 74%
+
+Correct: 305, Total: 396, Effectiveness: 77%
+
+Correct: 293, Total: 397, Effectiveness: 73%
+
+Correct: 275, Total: 395, Effectiveness: 69%
+
+Correct: 302, Total: 396, Effectiveness: 76%
+
+Correct: 293, Total: 395, Effectiveness: 74%
+
+Naive bayes classification with random subsampling at 97-percent:
+Correct: 216, Total: 297, Effectiveness: 72%
+
+Correct: 224, Total: 298, Effectiveness: 75%
+
+Correct: 225, Total: 299, Effectiveness: 75%
+
+Correct: 223, Total: 299, Effectiveness: 74%
+
+Correct: 219, Total: 296, Effectiveness: 73%
+
+Correct: 221, Total: 295, Effectiveness: 74%
+
+Correct: 230, Total: 297, Effectiveness: 77%
+
+Correct: 214, Total: 297, Effectiveness: 72%
+
+Correct: 224, Total: 297, Effectiveness: 75%
+
+Correct: 226, Total: 295, Effectiveness: 76%
+
+Naive bayes classification with random subsampling at 98-percent:
+Correct: 153, Total: 199, Effectiveness: 76%
+
+Correct: 163, Total: 200, Effectiveness: 81%
+
+Correct: 145, Total: 197, Effectiveness: 73%
+
+Correct: 161, Total: 196, Effectiveness: 82%
+
+Correct: 141, Total: 198, Effectiveness: 71%
+
+Correct: 153, Total: 200, Effectiveness: 76%
+
+Correct: 145, Total: 199, Effectiveness: 72%
+
+Correct: 157, Total: 199, Effectiveness: 78%
+
+Correct: 149, Total: 197, Effectiveness: 75%
+
+Correct: 154, Total: 197, Effectiveness: 78%
+
+Naive bayes classification with random subsampling at 99-percent:
+Correct: 70, Total: 99, Effectiveness: 70%
+
+Correct: 79, Total: 99, Effectiveness: 79%
+
+Correct: 71, Total: 100, Effectiveness: 71%
+
+Correct: 77, Total: 100, Effectiveness: 77%
+
+Correct: 81, Total: 100, Effectiveness: 81%
+
+Correct: 72, Total: 99, Effectiveness: 72%
+
+Correct: 75, Total: 100, Effectiveness: 75%
+
+Correct: 77, Total: 100, Effectiveness: 77%
+
+Correct: 71, Total: 99, Effectiveness: 71%
+
+Correct: 64, Total: 98, Effectiveness: 65%
+
