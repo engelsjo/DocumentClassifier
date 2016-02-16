@@ -1,0 +1,3 @@
+../data/twitterData/taylorswift13_tweets_edit.csv
+Correct: 2062, Total: 2432, Effectiveness: 84%
+

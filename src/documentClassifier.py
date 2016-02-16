@@ -73,7 +73,7 @@ class DocumentClassifier(object):
     def learn(self, docList):
         # use progress bar to track computation time
         #bar = progressbar.ProgressBar(max_value=len(docList)).start()
-        print ('Learning from training documents:')
+        #print ('Learning from training documents:')
         # since each line is a training document, parse it
         for i in range(0, len(docList)):
             line = docList[i]
@@ -134,7 +134,7 @@ class DocumentClassifier(object):
         # use progress bar to track computation time
         #bar = progressbar.ProgressBar(max_value=len(docList), \
         #                              redirect_stdout=True).start()
-        print ('Classifying test documents:')
+        #print ('Classifying test documents:')
         # since each line is a test document, parse it
         for i in range(0, len(docList)):
             line = docList[i]
@@ -180,7 +180,7 @@ class DocumentClassifier(object):
 
     # holdout method, use training set and test set
     def holdout(self, trainingSet, testSet):
-        print 'Naive bayes classification with holdout method'
+        #print 'Naive bayes classification with holdout method'
         # parse the training set
         trainLines = self.parseFile(trainingSet, '\n\r', ' ')
         # parse the test set
@@ -265,8 +265,8 @@ class DocumentClassifier(object):
 
     # print statistics on classifier effectiveness
     def printStats(self):
-        print('Classifier Effectiveness:')
-        print 'Correct: %d, Total: %d, Effectiveness: %d%%' % \
+        #print('Classifier Effectiveness:')
+        print 'Correct: %d, Total: %d, Effectiveness: %d%%\n' % \
               (self.numCorrect, self.numTestDocs, \
                self.percentage(self.numCorrect, self.numTestDocs))
 
@@ -320,6 +320,7 @@ def parseCommands():
 
 # create document classifier and run holdout method
 def holdoutFunc(args):
+    print args.testSet
     dc = DocumentClassifier()
     dc.holdout(args.trainingSet, args.testSet)
 
