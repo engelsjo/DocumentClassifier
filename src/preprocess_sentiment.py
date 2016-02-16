@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # All credit goes to yogeshg/Twitter-Sentiment
 
 # This Python file uses the following encoding: utf-8
